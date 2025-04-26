@@ -465,12 +465,14 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
   /home/dima/2sem/op/AIRPORT/addflight.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
@@ -529,7 +531,7 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /home/dima/2sem/op/AIRPORT/chartview.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/CriteriaSum/criteriasum.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/CriteriaSum/../Flight/Flight.h \
-  /home/dima/2sem/op/AIRPORT/diagram.h \
+  /home/dima/2sem/op/AIRPORT/circlechart.h \
   /home/dima/2sem/op/AIRPORT/editflight.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Manipulations.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Student.h \
@@ -540,5 +542,14 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
+  /home/dima/2sem/op/AIRPORT/table.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/FileInteractions/FileInteractions.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/FileInteractions/../Flight/Flight.h

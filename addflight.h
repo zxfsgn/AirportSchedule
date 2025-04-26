@@ -17,6 +17,7 @@
 
 class AddFlight : public QWidget {
   Q_OBJECT
+
   QFormLayout* form;
   QLineEdit* numberEdit;
   QLineEdit* destinationEdit;
@@ -36,14 +37,20 @@ class AddFlight : public QWidget {
   QSpinBox* minuteEdit;
   QHBoxLayout* dateLayout;
   QHBoxLayout* timeLayout;
-  QDialogButtonBox* buttonBox;
 
  public:
   explicit AddFlight(Flight* flights,
                      size_t& flightsAmount,
                      QWidget* parent = nullptr);
   QDialog* dialog;
+  QDialogButtonBox* buttonBox;
   void showDialog();
+
+ public slots:
+  void createFlight();
+
+ signals:
+  void added();
 
  private:
   Flight* flights;

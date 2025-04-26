@@ -1,9 +1,8 @@
 CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /home/dima/2sem/op/AIRPORT/table.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/type_traits \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -53,7 +52,6 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/version \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/atomic \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/variant \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/enable_special_members.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/exception_defines.h \
@@ -157,17 +155,8 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/tr1/riemann_zeta.tcc \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/functional \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_function.h \
@@ -205,6 +194,8 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h /usr/include/string.h \
   /usr/include/strings.h \
@@ -304,30 +295,39 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdlib.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringtokenizer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
+  /usr/lib/llvm-18/lib/clang/18/include/limits.h /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/numeric \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_numeric.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/list \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_list.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/list.tcc \
@@ -335,6 +335,30 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_map.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/chrono \
@@ -353,16 +377,6 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
-  /usr/lib/llvm-18/lib/clang/18/include/limits.h /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
@@ -370,15 +384,6 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
@@ -386,4 +391,43 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_ios.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_ios.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ostream \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/codecvt.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream

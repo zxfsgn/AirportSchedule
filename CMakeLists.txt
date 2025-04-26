@@ -23,20 +23,20 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(AIRPORT
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        ../CMAKESRC/a.out ../CMAKESRC/BinaryInput.cpp ../CMAKESRC/BinaryInput.h ../CMAKESRC/Date.h ../CMAKESRC/FileInput.cpp ../CMAKESRC/FileInput.h ../CMAKESRC/FileOutput.cpp ../CMAKESRC/FileOutput.h  ../CMAKESRC/InputChecks.cpp ../CMAKESRC/InputChecks.h ../CMAKESRC/InputKeyboard.cpp ../CMAKESRC/InputKeyboard.h ../CMAKESRC/Manipulations.cpp ../CMAKESRC/Manipulations.h ../CMAKESRC/Others.cpp ../CMAKESRC/Others.h ../CMAKESRC/OutputScreen.cpp ../CMAKESRC/OutputScreen.h ../CMAKESRC/Request.cpp ../CMAKESRC/Request.h ../CMAKESRC/Sort.cpp ../CMAKESRC/Sort.h ../CMAKESRC/Source.cpp ../CMAKESRC/Source.h ../CMAKESRC/Student.h ../CMAKESRC/Flights.bin ../CMAKESRC/Flights.txt ../CMAKESRC/Widths.h
-        chartview.h chartview.cpp
-        chartview.h chartview.cpp chartview.ui
-        diagram.h diagram.cpp diagram.ui
-        chartview.ui
+          chartview.h chartview.cpp
+          chartview.h chartview.cpp
+        circlechart.h circlechart.cpp
         barchart.h barchart.cpp
         editflight.h editflight.cpp
         linechart.h linechart.cpp
-        ../CMAKESRC/FileInteractions/FileInteractions.cpp ../CMAKESRC/FileInteractions/FileInteractions.h ../CMAKESRC/Flight/Flight.cpp ../CMAKESRC/Flight/Flight.h ../CMAKESRC/a.out ../CMAKESRC/BinaryInput.cpp ../CMAKESRC/BinaryInput.h ../CMAKESRC/Date.h ../CMAKESRC/FileInput.cpp ../CMAKESRC/FileInput.h ../CMAKESRC/FileOutput.cpp ../CMAKESRC/FileOutput.h ../CMAKESRC/InputChecks.cpp ../CMAKESRC/InputChecks.h ../CMAKESRC/InputKeyboard.cpp ../CMAKESRC/InputKeyboard.h ../CMAKESRC/Manipulations.cpp ../CMAKESRC/Manipulations.h ../CMAKESRC/Others.cpp ../CMAKESRC/Others.h ../CMAKESRC/OutputScreen.cpp ../CMAKESRC/OutputScreen.h ../CMAKESRC/Request.cpp ../CMAKESRC/Request.h ../CMAKESRC/Sort.cpp ../CMAKESRC/Sort.h ../CMAKESRC/Source.cpp ../CMAKESRC/Source.h ../CMAKESRC/Student.h ../CMAKESRC/Flights.bin ../CMAKESRC/Flights.txt ../CMAKESRC/Widths.h
+        ../CMAKESRC/FileInteractions/FileInteractions.cpp ../CMAKESRC/FileInteractions/FileInteractions.h ../CMAKESRC/Flight/Flight.cpp ../CMAKESRC/Flight/Flight.h ../CMAKESRC/a.out ../CMAKESRC/BinaryInput.cpp ../CMAKESRC/BinaryInput.h ../CMAKESRC/Date.h ../CMAKESRC/FileInput.cpp ../CMAKESRC/FileInput.h ../CMAKESRC/FileOutput.cpp ../CMAKESRC/FileOutput.h ../CMAKESRC/InputChecks.cpp ../CMAKESRC/InputChecks.h ../CMAKESRC/InputKeyboard.cpp ../CMAKESRC/InputKeyboard.h ../CMAKESRC/Manipulations.cpp ../CMAKESRC/Manipulations.h ../CMAKESRC/Others.cpp ../CMAKESRC/Others.h ../CMAKESRC/OutputScreen.cpp ../CMAKESRC/OutputScreen.h ../CMAKESRC/Request.cpp ../CMAKESRC/Request.h ../CMAKESRC/Source.cpp ../CMAKESRC/Source.h ../CMAKESRC/Student.h ../CMAKESRC/Flights.bin ../CMAKESRC/Flights.txt ../CMAKESRC/Widths.h
         ../CMAKESRC/CUDFlight/cudflight.cpp ../CMAKESRC/CUDFlight/cudflight.h
         ../CMAKESRC/CriteriaSum/criteriasum.cpp ../CMAKESRC/CriteriaSum/criteriasum.h
         addflight.h addflight.cpp
         table.h table.cpp
         requests.h requests.cpp
+        ../CMAKESRC/Sort/Sort.cpp ../CMAKESRC/Sort/Sort.h
+        ../CMAKESRC/Search/search.cpp ../CMAKESRC/Search/search.h
 
     )
 # Define target properties for Android with Qt 6 as:

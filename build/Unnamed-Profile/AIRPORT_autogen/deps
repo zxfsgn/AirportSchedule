@@ -10,8 +10,8 @@ AIRPORT_autogen/timestamp: \
 	/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/dima/2sem/op/AIRPORT/chartview.cpp \
 	/home/dima/2sem/op/AIRPORT/chartview.h \
-	/home/dima/2sem/op/AIRPORT/diagram.cpp \
-	/home/dima/2sem/op/AIRPORT/diagram.h \
+	/home/dima/2sem/op/AIRPORT/circlechart.cpp \
+	/home/dima/2sem/op/AIRPORT/circlechart.h \
 	/home/dima/2sem/op/AIRPORT/editflight.cpp \
 	/home/dima/2sem/op/AIRPORT/editflight.h \
 	/home/dima/2sem/op/AIRPORT/linechart.cpp \
@@ -50,8 +50,10 @@ AIRPORT_autogen/timestamp: \
 	/home/dima/2sem/op/CMAKESRC/OutputScreen.h \
 	/home/dima/2sem/op/CMAKESRC/Request.cpp \
 	/home/dima/2sem/op/CMAKESRC/Request.h \
-	/home/dima/2sem/op/CMAKESRC/Sort.cpp \
-	/home/dima/2sem/op/CMAKESRC/Sort.h \
+	/home/dima/2sem/op/CMAKESRC/Search/search.cpp \
+	/home/dima/2sem/op/CMAKESRC/Search/search.h \
+	/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp \
+	/home/dima/2sem/op/CMAKESRC/Sort/Sort.h \
 	/home/dima/2sem/op/CMAKESRC/Source.cpp \
 	/home/dima/2sem/op/CMAKESRC/Source.h \
 	/home/dima/2sem/op/CMAKESRC/Student.h \
@@ -385,6 +387,7 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
@@ -422,6 +425,7 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
@@ -529,7 +533,9 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLayout \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
@@ -537,10 +543,13 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
@@ -556,6 +565,7 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
@@ -571,6 +581,8 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
@@ -740,6 +752,5 @@ AIRPORT_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-	/home/dima/2sem/op/AIRPORT/diagram.ui \
 	/home/dima/2sem/op/AIRPORT/mainwindow.ui \
 	/usr/bin/cmake

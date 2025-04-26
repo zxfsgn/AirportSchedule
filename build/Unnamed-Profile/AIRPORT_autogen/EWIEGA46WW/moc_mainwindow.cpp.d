@@ -3,9 +3,10 @@
   /home/dima/2sem/op/AIRPORT/addflight.h \
   /home/dima/2sem/op/AIRPORT/barchart.h \
   /home/dima/2sem/op/AIRPORT/chartview.h \
-  /home/dima/2sem/op/AIRPORT/diagram.h \
+  /home/dima/2sem/op/AIRPORT/circlechart.h \
   /home/dima/2sem/op/AIRPORT/editflight.h \
   /home/dima/2sem/op/AIRPORT/linechart.h \
+  /home/dima/2sem/op/AIRPORT/table.h \
   /home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.h \
   /home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.h \
   /home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.h \
@@ -342,8 +343,10 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -378,6 +381,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
@@ -484,7 +488,9 @@
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLayout \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
@@ -492,10 +498,15 @@
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
@@ -508,6 +519,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
@@ -515,9 +527,16 @@
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \

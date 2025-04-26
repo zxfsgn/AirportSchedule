@@ -4,27 +4,24 @@
 #include <QChart>
 #include <QChartView>
 #include <QDialog>
+#include <QGridLayout>
 #include <QMainWindow>
 #include <QPieSeries>
+#include <QTabWidget>
 #include <string>
 
 #include "addflight.h"
 #include "barchart.h"
-#include "diagram.h"
+#include "circlechart.h"
 #include "editflight.h"
 #include "linechart.h"
+#include "table.h"
 // #include "requests.h"
 
 #include "../CMAKESRC/FileInteractions/FileInteractions.h"
 #include "../CMAKESRC/Flight/Flight.h"
 
 using std::wstring;
-
-QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
-QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow {
   Q_OBJECT
@@ -37,8 +34,6 @@ class MainWindow : public QMainWindow {
   void requestBtnClicked();
 
  private slots:
-  void on_tableWidget_Item_Data_cellDoubleClicked(int row, int column);
-
   void on_btnAdd_clicked();
 
   void on_diagramButton_clicked();
@@ -47,19 +42,17 @@ class MainWindow : public QMainWindow {
 
   void on_deleteButton_clicked();
 
-  void updateInfo();
-
   void on_lineChartBtn_clicked();
 
   void on_intermediateBtn_clicked();
 
   void on_requestsButton_clicked();
 
-  void on_updateButton_clicked();
-
  private:
-  Ui::MainWindow* ui;
-  Diagram* diagram;
+  QTabWidget* tabs;
+  Table* table;
+  QWidget* charts;
+  CircleChart* diagram;
   BarChart* barchart;
   LineChart* lineChart;
   EditFlight* editFlight;
@@ -69,5 +62,8 @@ class MainWindow : public QMainWindow {
   Flight* flights;
   size_t flightsAmount{};
   FileInteractions* fileInteractions;
+
+  void setTab();
+  void initializeFlights();
 };
 #endif  // MAINWINDOW_H

@@ -223,5 +223,4 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o: \
   /home/dima/2sem/op/CMAKESRC/InputKeyboard.h \
   /home/dima/2sem/op/CMAKESRC/Manipulations.h \
   /home/dima/2sem/op/CMAKESRC/OutputScreen.h \
-  /home/dima/2sem/op/CMAKESRC/Request.h \
-  /home/dima/2sem/op/CMAKESRC/Sort.h
+  /home/dima/2sem/op/CMAKESRC/Request.h

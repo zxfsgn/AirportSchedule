@@ -2,7 +2,7 @@
 #include "EWIEGA46WW/moc_addflight.cpp"
 #include "EWIEGA46WW/moc_barchart.cpp"
 #include "EWIEGA46WW/moc_chartview.cpp"
-#include "EWIEGA46WW/moc_diagram.cpp"
+#include "EWIEGA46WW/moc_circlechart.cpp"
 #include "EWIEGA46WW/moc_editflight.cpp"
 #include "EWIEGA46WW/moc_linechart.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"

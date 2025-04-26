@@ -63,9 +63,11 @@ AddFlight::AddFlight(Flight* flights, size_t& flightsAmount, QWidget* parent)
 
   form->addRow(buttonBox);
 
-  connect(buttonBox, &QDialogButtonBox::accepted, dialog, &QDialog::accept);
-  connect(buttonBox, &QDialogButtonBox::rejected, dialog, &QDialog::reject);
+  connect(buttonBox, SIGNAL(accepted()), dialog, SLOT(accept()));
+  connect(buttonBox, SIGNAL(rejected()), dialog, SLOT(reject()));
 }
+
+void AddFlight::createFlight() {}
 
 void AddFlight::showDialog() {
   if (dialog->exec() == QDialog::Accepted) {
@@ -90,6 +92,7 @@ void AddFlight::showDialog() {
     cudFlight = new CUDFlight(flights, flightsAmount);
     cudFlight->createOne(newFlight);
 
+    emit added();
     QMessageBox::information(this, "Успех", "Запись успешно добавлена!");
     //      this->close();
   }

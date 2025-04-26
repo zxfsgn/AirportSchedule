@@ -1,15 +1,34 @@
 #ifndef TABLE_H
 #define TABLE_H
 
-#include <QWidget>
+#include <QDebug>
+#include <QHeaderView>
+#include <QString>
+#include <QTableWidget>
 
-class Table : public QWidget
-{
-    Q_OBJECT
-public:
-    explicit Table(QWidget *parent = nullptr);
+#include <map>
+#include <string>
 
-signals:
+#include "../CMAKESRC/Flight/Flight.h"
+
+using std::map;
+using std::wstring;
+
+class Table : public QTableWidget {
+  Q_OBJECT
+ public:
+  explicit Table(Flight* flights,
+                 size_t& flightsAmount,
+                 QWidget* parent = nullptr);
+
+ public slots:
+  void populateTable();
+
+ signals:
+
+ private:
+  Flight* flights;
+  size_t& flightsAmount;
 };
 
-#endif // TABLE_H
+#endif  // TABLE_H
