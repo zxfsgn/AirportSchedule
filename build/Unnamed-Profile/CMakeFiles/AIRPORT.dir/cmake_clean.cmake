@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AIRPORT.dir/circlechart.cpp.o.d"
   "CMakeFiles/AIRPORT.dir/editflight.cpp.o"
   "CMakeFiles/AIRPORT.dir/editflight.cpp.o.d"
+  "CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o"
+  "CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o.d"
   "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o"
   "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o.d"
   "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o"
@@ -56,10 +58,16 @@ file(REMOVE_RECURSE
   "CMakeFiles/AIRPORT.dir/main.cpp.o.d"
   "CMakeFiles/AIRPORT.dir/mainwindow.cpp.o"
   "CMakeFiles/AIRPORT.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/AIRPORT.dir/qflight.cpp.o"
+  "CMakeFiles/AIRPORT.dir/qflight.cpp.o.d"
   "CMakeFiles/AIRPORT.dir/requests.cpp.o"
   "CMakeFiles/AIRPORT.dir/requests.cpp.o.d"
   "CMakeFiles/AIRPORT.dir/table.cpp.o"
   "CMakeFiles/AIRPORT.dir/table.cpp.o.d"
+  "CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o"
+  "CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o.d"
+  "CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o"
+  "CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

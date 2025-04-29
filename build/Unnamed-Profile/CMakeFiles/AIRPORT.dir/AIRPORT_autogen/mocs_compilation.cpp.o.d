@@ -427,7 +427,6 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/CUDFlight/cudflight.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/CUDFlight/../Flight/Flight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
@@ -524,6 +523,15 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Manipulations.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Student.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Widths.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_flighttablemodel.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../flighttablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QAbstractTableModel \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../qflight.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_linechart.cpp \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../linechart.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
@@ -538,11 +546,12 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../table.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
@@ -551,14 +560,18 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyledItemDelegate \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleditemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../tabledelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/FileInteractions/FileInteractions.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/FileInteractions/../Flight/Flight.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_requests.cpp \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../requests.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_table.cpp
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_table.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_tabledelegate.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_tablewrapper.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../tablewrapper.h

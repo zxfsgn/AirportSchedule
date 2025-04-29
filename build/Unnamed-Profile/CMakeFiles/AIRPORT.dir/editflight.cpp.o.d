@@ -410,7 +410,6 @@ CMakeFiles/AIRPORT.dir/editflight.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/CUDFlight/cudflight.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/CUDFlight/../Flight/Flight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
@@ -434,4 +433,5 @@ CMakeFiles/AIRPORT.dir/editflight.cpp.o: \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Manipulations.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Student.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Widths.h
+  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Widths.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug

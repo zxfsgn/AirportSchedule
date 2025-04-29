@@ -267,6 +267,12 @@
 			null
 		],
 		[
+			"/home/dima/2sem/op/AIRPORT/flighttablemodel.h",
+			"MU",
+			"EWIEGA46WW/moc_flighttablemodel.cpp",
+			null
+		],
+		[
 			"/home/dima/2sem/op/AIRPORT/linechart.h",
 			"MU",
 			"EWIEGA46WW/moc_linechart.cpp",
@@ -279,6 +285,12 @@
 			null
 		],
 		[
+			"/home/dima/2sem/op/AIRPORT/qflight.h",
+			"MU",
+			"EWIEGA46WW/moc_qflight.cpp",
+			null
+		],
+		[
 			"/home/dima/2sem/op/AIRPORT/requests.h",
 			"MU",
 			"EWIEGA46WW/moc_requests.cpp",
@@ -288,6 +300,18 @@
 			"/home/dima/2sem/op/AIRPORT/table.h",
 			"MU",
 			"EWIEGA46WW/moc_table.cpp",
+			null
+		],
+		[
+			"/home/dima/2sem/op/AIRPORT/tabledelegate.h",
+			"MU",
+			"EWIEGA46WW/moc_tabledelegate.cpp",
+			null
+		],
+		[
+			"/home/dima/2sem/op/AIRPORT/tablewrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_tablewrapper.cpp",
 			null
 		],
 		[
@@ -480,11 +504,15 @@
 		[ "/home/dima/2sem/op/AIRPORT/chartview.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/circlechart.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/editflight.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/flighttablemodel.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/linechart.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/main.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/mainwindow.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/qflight.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/requests.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/table.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/tabledelegate.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/tablewrapper.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp", "MU", null ],

@@ -345,19 +345,21 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
@@ -386,7 +388,6 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
@@ -406,10 +407,22 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyledItemDelegate \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleditemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /home/dima/2sem/op/AIRPORT/flighttablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QAbstractTableModel \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
+  /home/dima/2sem/op/AIRPORT/qflight.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
@@ -430,4 +443,17 @@ CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
+  /home/dima/2sem/op/AIRPORT/tabledelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h

@@ -2,33 +2,37 @@
 #define TABLE_H
 
 #include <QDebug>
+#include <QFont>
 #include <QHeaderView>
+#include <QList>
 #include <QString>
-#include <QTableWidget>
+#include <QStringList>
+#include <QStyledItemDelegate>
+#include <QTableView>
 
-#include <map>
-#include <string>
+#include "flighttablemodel.h"
+#include "qflight.h"
+#include "tabledelegate.h"
 
-#include "../CMAKESRC/Flight/Flight.h"
+#include <algorithm>
 
-using std::map;
-using std::wstring;
-
-class Table : public QTableWidget {
+class Table : public QTableView {
   Q_OBJECT
  public:
-  explicit Table(Flight* flights,
-                 size_t& flightsAmount,
-                 QWidget* parent = nullptr);
+  explicit Table(QList<QFlight>& flights, QWidget* parent = nullptr);
+
+  FlightTableModel* model() const { return m_model; }
 
  public slots:
-  void populateTable();
-
- signals:
+  void deleteSelectedRows();
+  void addRow();
 
  private:
-  Flight* flights;
-  size_t& flightsAmount;
+  QList<QFlight>& flights;
+  FlightTableModel* m_model;
+
+  QStringList* headers;
+  TableDelegate* delegate;
 };
 
 #endif  // TABLE_H
