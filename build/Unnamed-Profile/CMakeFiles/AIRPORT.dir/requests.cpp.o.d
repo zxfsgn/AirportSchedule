@@ -473,6 +473,8 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
   /home/dima/2sem/op/AIRPORT/addflight.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
@@ -494,7 +496,6 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/CUDFlight/cudflight.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/CUDFlight/../Flight/Flight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
@@ -542,14 +543,22 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
+  /home/dima/2sem/op/AIRPORT/qflight.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
   /home/dima/2sem/op/AIRPORT/table.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyledItemDelegate \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleditemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /home/dima/2sem/op/AIRPORT/flighttablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QAbstractTableModel \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
+  /home/dima/2sem/op/AIRPORT/tabledelegate.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/FileInteractions/FileInteractions.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/FileInteractions/../Flight/Flight.h

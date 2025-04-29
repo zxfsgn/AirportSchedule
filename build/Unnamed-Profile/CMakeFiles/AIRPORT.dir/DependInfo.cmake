@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dima/2sem/op/AIRPORT/chartview.cpp" "CMakeFiles/AIRPORT.dir/chartview.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/chartview.cpp.o.d"
   "/home/dima/2sem/op/AIRPORT/circlechart.cpp" "CMakeFiles/AIRPORT.dir/circlechart.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/circlechart.cpp.o.d"
   "/home/dima/2sem/op/AIRPORT/editflight.cpp" "CMakeFiles/AIRPORT.dir/editflight.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/editflight.cpp.o.d"
+  "/home/dima/2sem/op/AIRPORT/flighttablemodel.cpp" "CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o.d"
   "/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp" "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o.d"
   "/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp" "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o.d"
   "/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp" "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o.d"
@@ -34,8 +35,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dima/2sem/op/AIRPORT/linechart.cpp" "CMakeFiles/AIRPORT.dir/linechart.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/linechart.cpp.o.d"
   "/home/dima/2sem/op/AIRPORT/main.cpp" "CMakeFiles/AIRPORT.dir/main.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/main.cpp.o.d"
   "/home/dima/2sem/op/AIRPORT/mainwindow.cpp" "CMakeFiles/AIRPORT.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/mainwindow.cpp.o.d"
+  "/home/dima/2sem/op/AIRPORT/qflight.cpp" "CMakeFiles/AIRPORT.dir/qflight.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/qflight.cpp.o.d"
   "/home/dima/2sem/op/AIRPORT/requests.cpp" "CMakeFiles/AIRPORT.dir/requests.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/requests.cpp.o.d"
   "/home/dima/2sem/op/AIRPORT/table.cpp" "CMakeFiles/AIRPORT.dir/table.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/table.cpp.o.d"
+  "/home/dima/2sem/op/AIRPORT/tabledelegate.cpp" "CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o.d"
+  "/home/dima/2sem/op/AIRPORT/tablewrapper.cpp" "CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o" "gcc" "CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
