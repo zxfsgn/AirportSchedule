@@ -21,7 +21,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(AIRPORT
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-          chartview.h chartview.cpp
+
         circlechart.h circlechart.cpp
         barchart.h barchart.cpp
         editflight.h editflight.cpp
@@ -38,6 +38,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         flighttablemodel.h flighttablemodel.cpp
         qflight.h qflight.cpp
         tabledelegate.h tabledelegate.cpp
+        flightsfilter.h flightsfilter.cpp
+        flightschart.h flightschart.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET AIRPORT APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

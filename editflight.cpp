@@ -1,5 +1,4 @@
 #include "editflight.h"
-#include <QDebug>
 
 EditFlight::EditFlight(Flight* flights, size_t& flightsAmount, QWidget* parent)
     : flights(flights), flightsAmount(flightsAmount), QWidget(parent) {
@@ -28,7 +27,6 @@ EditFlight::EditFlight(Flight* flights, size_t& flightsAmount, QWidget* parent)
 
 void EditFlight::deleteFlight() {
   int flightNumber = chooseNumberField->text().toInt() - 1;
-  qDebug() << flightNumber;
   cudflight->deleteOne(flightNumber);
 }
 

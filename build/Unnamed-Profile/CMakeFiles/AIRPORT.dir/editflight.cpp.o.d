@@ -433,5 +433,4 @@ CMakeFiles/AIRPORT.dir/editflight.cpp.o: \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Manipulations.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Student.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Widths.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug
+  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Widths.h

@@ -416,6 +416,9 @@ CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSortFilterProxyModel \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsortfilterproxymodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyledItemDelegate \

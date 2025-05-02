@@ -5,11 +5,15 @@ Table::Table(QList<QFlight>& flights, QWidget* parent)
   horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeMode::Stretch);
   m_model = new FlightTableModel(flights);
   delegate = new TableDelegate(this);
-  setModel(m_model);
+  createProxy();
+  setModel(proxyModel());
   setItemDelegate(delegate);
   setSelectionMode(QAbstractItemView::SingleSelection);
   setSelectionBehavior(QAbstractItemView::SelectRows);
   setMinimumSize(750, 500);
+  setSortingEnabled(true);
+  sortByColumn(0, Qt::AscendingOrder);
+  horizontalHeader()->setSortIndicatorShown(true);
 }
 
 void Table::deleteSelectedRows() {
@@ -29,4 +33,11 @@ void Table::addRow() {
   // selectionModel()->setCurrentIndex(index,
   // QItemSelectionModel::ClearAndSelect);
   edit(index);
+}
+
+void Table::createProxy() {
+  m_proxyModel = new QSortFilterProxyModel();
+  m_proxyModel->setSourceModel(m_model);
+  m_proxyModel->setFilterCaseSensitivity(Qt::CaseInsensitive);
+  m_proxyModel->setFilterKeyColumn(-1);
 }

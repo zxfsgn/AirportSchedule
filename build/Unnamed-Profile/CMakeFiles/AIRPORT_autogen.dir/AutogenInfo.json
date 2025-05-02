@@ -249,12 +249,6 @@
 			null
 		],
 		[
-			"/home/dima/2sem/op/AIRPORT/chartview.h",
-			"MU",
-			"EWIEGA46WW/moc_chartview.cpp",
-			null
-		],
-		[
 			"/home/dima/2sem/op/AIRPORT/circlechart.h",
 			"MU",
 			"EWIEGA46WW/moc_circlechart.cpp",
@@ -264,6 +258,18 @@
 			"/home/dima/2sem/op/AIRPORT/editflight.h",
 			"MU",
 			"EWIEGA46WW/moc_editflight.cpp",
+			null
+		],
+		[
+			"/home/dima/2sem/op/AIRPORT/flightschart.h",
+			"MU",
+			"EWIEGA46WW/moc_flightschart.cpp",
+			null
+		],
+		[
+			"/home/dima/2sem/op/AIRPORT/flightsfilter.h",
+			"MU",
+			"EWIEGA46WW/moc_flightsfilter.cpp",
 			null
 		],
 		[
@@ -501,9 +507,10 @@
 	[
 		[ "/home/dima/2sem/op/AIRPORT/addflight.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/barchart.cpp", "MU", null ],
-		[ "/home/dima/2sem/op/AIRPORT/chartview.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/circlechart.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/editflight.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/flightschart.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/flightsfilter.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/flighttablemodel.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/linechart.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/main.cpp", "MU", null ],

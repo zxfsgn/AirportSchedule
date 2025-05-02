@@ -1,35 +1,21 @@
 #ifndef LINECHART_H
 #define LINECHART_H
 
-#include <QChart>
-#include <QChartView>
 #include <QLineSeries>
-#include <QPushButton>
-#include <QRectF>
-#include <QVBoxLayout>
-#include <QWidget>
-#include <map>
-#include <string>
 
-#include "../CMAKESRC/CriteriaSum/criteriasum.h"
-#include "../CMAKESRC/Flight/Flight.h"
+#include "flightschart.h"
 
-class LineChart : public QWidget {
+class LineChart : public FlightsChart {
   Q_OBJECT
+
  public:
-  explicit LineChart(Flight* flights,
-                     size_t& flightsAmount,
-                     QWidget* parent = nullptr);
+  explicit LineChart(QList<QFlight> flights,
+                     QColumns column = QColumns::Date,
+                     QGraphicsItem* parent = nullptr);
 
  private:
-  Flight* flights;
-  size_t& flightsAmount;
-  CriteriaSum* criteriaSum;
-  map<wstring, int> flightsMap;
-  // use parent chart and inherit it as all charts have the same fields and
-  // imports
-
-  QChartView* chartView;
+  QHash<QDate, int> flightsHash;
+  void createSeries();
 };
 
 #endif  // LINECHART_H

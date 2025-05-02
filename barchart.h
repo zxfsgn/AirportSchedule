@@ -3,38 +3,18 @@
 
 #include <QBarSeries>
 #include <QBarSet>
-#include <QChart>
-#include <QPushButton>
-#include <QRectF>
-#include <QVBoxLayout>
-#include <QWidget>
-#include <map>
-#include <string>
 
-#include "chartview.h"
+#include "flightschart.h"
 
-#include "../CMAKESRC/CriteriaSum/criteriasum.h"
-#include "../CMAKESRC/Flight/Flight.h"
-
-using std::map;
-using std::wstring;
-
-class BarChart : public QWidget {
+class BarChart : public FlightsChart {
   Q_OBJECT
  public:
-  explicit BarChart(Flight* flights,
-                    size_t& flightsAmount,
-                    QWidget* parent = nullptr);
-  void Hide();
+  explicit BarChart(QList<QFlight> flights,
+                    QColumns column = QColumns::Destination,
+                    QGraphicsItem* parent = nullptr);
 
  private:
-  Flight* flights;
-  size_t& flightsAmount;
-  CriteriaSum* criteriaSum;
-  map<wstring, int> flightsMap;
-  // use parent chart and inherit it as all charts have the same fields
-
-  QChartView* chartView;
+  void createSeries();
 };
 
 #endif  // BARCHART_H

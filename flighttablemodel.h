@@ -1,6 +1,8 @@
 #ifndef FLIGHTTABLEMODEL_H
 #define FLIGHTTABLEMODEL_H
 
+#include <algorithm>
+
 #include <QAbstractTableModel>
 #include <QColor>
 #include <QFont>
@@ -16,12 +18,10 @@ class FlightTableModel : public QAbstractTableModel {
  public:
   explicit FlightTableModel(QList<QFlight>& flights, QObject* parent = nullptr);
 
-  // Header:
   QVariant headerData(int section,
                       Qt::Orientation orientation,
                       int role = Qt::DisplayRole) const override;
 
-  // Basic functionality:
   int rowCount(const QModelIndex& parent = QModelIndex()) const override;
   int columnCount(const QModelIndex& parent = QModelIndex()) const override;
 
@@ -38,16 +38,13 @@ class FlightTableModel : public QAbstractTableModel {
 
   Qt::ItemFlags flags(const QModelIndex& index) const override;
 
-  // Add data:
   void addFlight(const QFlight& flight);
-  // bool insertRows(int row,
-  //                 int count,
-  //                 const QModelIndex& parent = QModelIndex()) override;
 
-  // Remove data:
   bool removeRows(int row,
                   int count,
                   const QModelIndex& parent = QModelIndex()) override;
+
+  void sort(int column, Qt::SortOrder order = Qt::AscendingOrder) override;
 
  public slots:
   void switchEditability();
@@ -60,5 +57,17 @@ class FlightTableModel : public QAbstractTableModel {
   QList<QFlight>& m_flights;
   size_t m_columnAmount;
 };
+
+bool fieldCompare(QColumns column,
+                  const QFlight& a,
+                  const QFlight& b,
+                  bool isAscending);
+
+template <typename T>
+bool valueCompare(const T& a, const T& b, bool isAscending) {
+  if (isAscending)
+    return a < b;
+  return a > b;
+}
 
 #endif  // FLIGHTTABLEMODEL_H

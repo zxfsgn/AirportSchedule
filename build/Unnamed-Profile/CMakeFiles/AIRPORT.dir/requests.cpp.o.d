@@ -415,8 +415,23 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
   /home/dima/2sem/op/AIRPORT/mainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
+  /home/dima/2sem/op/AIRPORT/barchart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractBarSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractbarseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
@@ -430,6 +445,12 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSet \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarset.h \
+  /home/dima/2sem/op/AIRPORT/flightschart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegend.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
@@ -444,7 +465,6 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
@@ -463,39 +483,16 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
-  /home/dima/2sem/op/AIRPORT/addflight.h \
+  /home/dima/2sem/op/AIRPORT/flightsfilter.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
+  /home/dima/2sem/op/AIRPORT/qflight.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialogButtonBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qformlayout.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/CUDFlight/cudflight.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/CUDFlight/../Flight/Flight.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
+  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
@@ -516,42 +513,25 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \
-  /home/dima/2sem/op/AIRPORT/barchart.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractBarSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractbarseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSet \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarset.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
-  /home/dima/2sem/op/AIRPORT/chartview.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/CriteriaSum/criteriasum.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/CriteriaSum/../Flight/Flight.h \
   /home/dima/2sem/op/AIRPORT/circlechart.h \
-  /home/dima/2sem/op/AIRPORT/editflight.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Manipulations.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Student.h \
-  /home/dima/2sem/op/AIRPORT/../CMAKESRC/Widths.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
   /home/dima/2sem/op/AIRPORT/linechart.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
-  /home/dima/2sem/op/AIRPORT/qflight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
   /home/dima/2sem/op/AIRPORT/table.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSortFilterProxyModel \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsortfilterproxymodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyledItemDelegate \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleditemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableView \
@@ -560,5 +540,11 @@ CMakeFiles/AIRPORT.dir/requests.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QAbstractTableModel \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
   /home/dima/2sem/op/AIRPORT/tabledelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/FileInteractions/FileInteractions.h \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/FileInteractions/../Flight/Flight.h

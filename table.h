@@ -5,6 +5,7 @@
 #include <QFont>
 #include <QHeaderView>
 #include <QList>
+#include <QSortFilterProxyModel>
 #include <QString>
 #include <QStringList>
 #include <QStyledItemDelegate>
@@ -22,6 +23,7 @@ class Table : public QTableView {
   explicit Table(QList<QFlight>& flights, QWidget* parent = nullptr);
 
   FlightTableModel* model() const { return m_model; }
+  QSortFilterProxyModel* proxyModel() const { return m_proxyModel; }
 
  public slots:
   void deleteSelectedRows();
@@ -30,9 +32,12 @@ class Table : public QTableView {
  private:
   QList<QFlight>& flights;
   FlightTableModel* m_model;
+  QSortFilterProxyModel* m_proxyModel;
 
   QStringList* headers;
   TableDelegate* delegate;
+
+  void createProxy();
 };
 
 #endif  // TABLE_H

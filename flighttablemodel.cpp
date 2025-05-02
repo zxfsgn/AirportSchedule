@@ -170,15 +170,6 @@ void FlightTableModel::addFlight(const QFlight& flight) {
   endInsertRows();
 }
 
-// bool FlightTableModel::insertRows(int row,
-//                                   int count,
-//                                   const QModelIndex& parent) {
-//   beginInsertRows(parent, row, row + count - 1);
-//   // FIXME: Implement me!
-//   endInsertRows();
-//   return true;
-// }
-
 bool FlightTableModel::removeRows(int row,
                                   int count,
                                   const QModelIndex& parent) {
@@ -199,4 +190,40 @@ void FlightTableModel::switchEditability() {
   isEditable = !isEditable;
   beginResetModel();
   endResetModel();
+}
+
+void FlightTableModel::sort(int column, Qt::SortOrder order) {
+  emit layoutAboutToBeChanged();
+  std::sort(m_flights.begin(), m_flights.end(),
+            [column, order](const auto& a, const auto& b) {
+              QColumns qColumn = static_cast<QColumns>(column);
+              bool isAscending = order == Qt::AscendingOrder;
+              return fieldCompare(qColumn, a, b, isAscending);
+            });
+  emit layoutChanged();
+}
+
+bool fieldCompare(QColumns column,
+                  const QFlight& a,
+                  const QFlight& b,
+                  bool isAscending) {
+  switch (column) {
+    case QColumns::Number:
+      return valueCompare<quint32>(a.number, b.number, isAscending);
+    case QColumns::Date:
+      return valueCompare<QDate>(a.date, b.date, isAscending);
+    case QColumns::Time:
+      return valueCompare<QTime>(a.time, b.time, isAscending);
+    case QColumns::Destination:
+      return valueCompare<QString>(a.destination, b.destination, isAscending);
+    case QColumns::Aircraft:
+      return valueCompare<QString>(a.aircraft, b.aircraft, isAscending);
+    case QColumns::Seats:
+      return valueCompare<quint32>(a.seats, b.seats, isAscending);
+    case QColumns::Intermediate:
+      return valueCompare<QString>(a.intermediate, b.intermediate, isAscending);
+    default:
+      break;
+  }
+  return true;
 }

@@ -8,12 +8,14 @@ AIRPORT_autogen/timestamp: \
 	/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/moc_predefs.h \
 	/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/3.28.3/CMakeSystem.cmake \
-	/home/dima/2sem/op/AIRPORT/chartview.cpp \
-	/home/dima/2sem/op/AIRPORT/chartview.h \
 	/home/dima/2sem/op/AIRPORT/circlechart.cpp \
 	/home/dima/2sem/op/AIRPORT/circlechart.h \
 	/home/dima/2sem/op/AIRPORT/editflight.cpp \
 	/home/dima/2sem/op/AIRPORT/editflight.h \
+	/home/dima/2sem/op/AIRPORT/flightschart.cpp \
+	/home/dima/2sem/op/AIRPORT/flightschart.h \
+	/home/dima/2sem/op/AIRPORT/flightsfilter.cpp \
+	/home/dima/2sem/op/AIRPORT/flightsfilter.h \
 	/home/dima/2sem/op/AIRPORT/flighttablemodel.cpp \
 	/home/dima/2sem/op/AIRPORT/flighttablemodel.h \
 	/home/dima/2sem/op/AIRPORT/linechart.cpp \
@@ -389,18 +391,20 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QAbstractTableModel \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
-	/usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSortFilterProxyModel \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -469,6 +473,7 @@ AIRPORT_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qsortfilterproxymodel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \

@@ -118,24 +118,10 @@ CMakeFiles/AIRPORT.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIRPORT.dir/mainwindow.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dima/2sem/op/AIRPORT/mainwindow.cpp -o CMakeFiles/AIRPORT.dir/mainwindow.cpp.s
 
-CMakeFiles/AIRPORT.dir/chartview.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
-CMakeFiles/AIRPORT.dir/chartview.cpp.o: /home/dima/2sem/op/AIRPORT/chartview.cpp
-CMakeFiles/AIRPORT.dir/chartview.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AIRPORT.dir/chartview.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/chartview.cpp.o -MF CMakeFiles/AIRPORT.dir/chartview.cpp.o.d -o CMakeFiles/AIRPORT.dir/chartview.cpp.o -c /home/dima/2sem/op/AIRPORT/chartview.cpp
-
-CMakeFiles/AIRPORT.dir/chartview.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AIRPORT.dir/chartview.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dima/2sem/op/AIRPORT/chartview.cpp > CMakeFiles/AIRPORT.dir/chartview.cpp.i
-
-CMakeFiles/AIRPORT.dir/chartview.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIRPORT.dir/chartview.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dima/2sem/op/AIRPORT/chartview.cpp -o CMakeFiles/AIRPORT.dir/chartview.cpp.s
-
 CMakeFiles/AIRPORT.dir/circlechart.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/circlechart.cpp.o: /home/dima/2sem/op/AIRPORT/circlechart.cpp
 CMakeFiles/AIRPORT.dir/circlechart.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AIRPORT.dir/circlechart.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AIRPORT.dir/circlechart.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/circlechart.cpp.o -MF CMakeFiles/AIRPORT.dir/circlechart.cpp.o.d -o CMakeFiles/AIRPORT.dir/circlechart.cpp.o -c /home/dima/2sem/op/AIRPORT/circlechart.cpp
 
 CMakeFiles/AIRPORT.dir/circlechart.cpp.i: cmake_force
@@ -149,7 +135,7 @@ CMakeFiles/AIRPORT.dir/circlechart.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/barchart.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/barchart.cpp.o: /home/dima/2sem/op/AIRPORT/barchart.cpp
 CMakeFiles/AIRPORT.dir/barchart.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AIRPORT.dir/barchart.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AIRPORT.dir/barchart.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/barchart.cpp.o -MF CMakeFiles/AIRPORT.dir/barchart.cpp.o.d -o CMakeFiles/AIRPORT.dir/barchart.cpp.o -c /home/dima/2sem/op/AIRPORT/barchart.cpp
 
 CMakeFiles/AIRPORT.dir/barchart.cpp.i: cmake_force
@@ -163,7 +149,7 @@ CMakeFiles/AIRPORT.dir/barchart.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/editflight.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/editflight.cpp.o: /home/dima/2sem/op/AIRPORT/editflight.cpp
 CMakeFiles/AIRPORT.dir/editflight.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AIRPORT.dir/editflight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AIRPORT.dir/editflight.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/editflight.cpp.o -MF CMakeFiles/AIRPORT.dir/editflight.cpp.o.d -o CMakeFiles/AIRPORT.dir/editflight.cpp.o -c /home/dima/2sem/op/AIRPORT/editflight.cpp
 
 CMakeFiles/AIRPORT.dir/editflight.cpp.i: cmake_force
@@ -177,7 +163,7 @@ CMakeFiles/AIRPORT.dir/editflight.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/linechart.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/linechart.cpp.o: /home/dima/2sem/op/AIRPORT/linechart.cpp
 CMakeFiles/AIRPORT.dir/linechart.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AIRPORT.dir/linechart.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AIRPORT.dir/linechart.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/linechart.cpp.o -MF CMakeFiles/AIRPORT.dir/linechart.cpp.o.d -o CMakeFiles/AIRPORT.dir/linechart.cpp.o -c /home/dima/2sem/op/AIRPORT/linechart.cpp
 
 CMakeFiles/AIRPORT.dir/linechart.cpp.i: cmake_force
@@ -191,7 +177,7 @@ CMakeFiles/AIRPORT.dir/linechart.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o: /home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.o -c /home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteractions.cpp.i: cmake_force
@@ -205,7 +191,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInteractions/FileInteracti
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o: /home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.o -c /home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.i: cmake_force
@@ -219,7 +205,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Flight/Flight.cpp.s: cmake_for
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o: /home/dima/2sem/op/CMAKESRC/BinaryInput.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.o -c /home/dima/2sem/op/CMAKESRC/BinaryInput.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.i: cmake_force
@@ -233,7 +219,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o: /home/dima/2sem/op/CMAKESRC/FileInput.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.o -c /home/dima/2sem/op/CMAKESRC/FileInput.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.i: cmake_force
@@ -247,7 +233,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileInput.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o: /home/dima/2sem/op/CMAKESRC/FileOutput.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.o -c /home/dima/2sem/op/CMAKESRC/FileOutput.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.i: cmake_force
@@ -261,7 +247,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/FileOutput.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o: /home/dima/2sem/op/CMAKESRC/InputChecks.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.o -c /home/dima/2sem/op/CMAKESRC/InputChecks.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.i: cmake_force
@@ -275,7 +261,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputChecks.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o: /home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.o -c /home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.i: cmake_force
@@ -289,7 +275,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/InputKeyboard.cpp.s: cmake_for
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o: /home/dima/2sem/op/CMAKESRC/Manipulations.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.o -c /home/dima/2sem/op/CMAKESRC/Manipulations.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.i: cmake_force
@@ -303,7 +289,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Manipulations.cpp.s: cmake_for
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o: /home/dima/2sem/op/CMAKESRC/Others.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.o -c /home/dima/2sem/op/CMAKESRC/Others.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.i: cmake_force
@@ -317,7 +303,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Others.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o: /home/dima/2sem/op/CMAKESRC/OutputScreen.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.o -c /home/dima/2sem/op/CMAKESRC/OutputScreen.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.i: cmake_force
@@ -331,7 +317,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/OutputScreen.cpp.s: cmake_forc
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o: /home/dima/2sem/op/CMAKESRC/Request.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.o -c /home/dima/2sem/op/CMAKESRC/Request.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.i: cmake_force
@@ -345,7 +331,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Request.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o: /home/dima/2sem/op/CMAKESRC/Source.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.o -c /home/dima/2sem/op/CMAKESRC/Source.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.i: cmake_force
@@ -359,7 +345,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Source.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o: /home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.o -c /home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.i: cmake_force
@@ -373,7 +359,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp.s: cma
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o: /home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.o -c /home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.i: cmake_force
@@ -387,7 +373,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/CriteriaSum/criteriasum.cpp.s:
 CMakeFiles/AIRPORT.dir/addflight.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/addflight.cpp.o: /home/dima/2sem/op/AIRPORT/addflight.cpp
 CMakeFiles/AIRPORT.dir/addflight.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/AIRPORT.dir/addflight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/AIRPORT.dir/addflight.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/addflight.cpp.o -MF CMakeFiles/AIRPORT.dir/addflight.cpp.o.d -o CMakeFiles/AIRPORT.dir/addflight.cpp.o -c /home/dima/2sem/op/AIRPORT/addflight.cpp
 
 CMakeFiles/AIRPORT.dir/addflight.cpp.i: cmake_force
@@ -401,7 +387,7 @@ CMakeFiles/AIRPORT.dir/addflight.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/table.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/table.cpp.o: /home/dima/2sem/op/AIRPORT/table.cpp
 CMakeFiles/AIRPORT.dir/table.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/AIRPORT.dir/table.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/AIRPORT.dir/table.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/table.cpp.o -MF CMakeFiles/AIRPORT.dir/table.cpp.o.d -o CMakeFiles/AIRPORT.dir/table.cpp.o -c /home/dima/2sem/op/AIRPORT/table.cpp
 
 CMakeFiles/AIRPORT.dir/table.cpp.i: cmake_force
@@ -415,7 +401,7 @@ CMakeFiles/AIRPORT.dir/table.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/requests.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/requests.cpp.o: /home/dima/2sem/op/AIRPORT/requests.cpp
 CMakeFiles/AIRPORT.dir/requests.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AIRPORT.dir/requests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/AIRPORT.dir/requests.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/requests.cpp.o -MF CMakeFiles/AIRPORT.dir/requests.cpp.o.d -o CMakeFiles/AIRPORT.dir/requests.cpp.o -c /home/dima/2sem/op/AIRPORT/requests.cpp
 
 CMakeFiles/AIRPORT.dir/requests.cpp.i: cmake_force
@@ -429,7 +415,7 @@ CMakeFiles/AIRPORT.dir/requests.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o: /home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.o -c /home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.i: cmake_force
@@ -443,7 +429,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Sort/Sort.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o: /home/dima/2sem/op/CMAKESRC/Search/search.cpp
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o -MF CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o.d -o CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.o -c /home/dima/2sem/op/CMAKESRC/Search/search.cpp
 
 CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.i: cmake_force
@@ -457,7 +443,7 @@ CMakeFiles/AIRPORT.dir/home/dima/2sem/op/CMAKESRC/Search/search.cpp.s: cmake_for
 CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o: /home/dima/2sem/op/AIRPORT/tablewrapper.cpp
 CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o -MF CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o.d -o CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o -c /home/dima/2sem/op/AIRPORT/tablewrapper.cpp
 
 CMakeFiles/AIRPORT.dir/tablewrapper.cpp.i: cmake_force
@@ -471,7 +457,7 @@ CMakeFiles/AIRPORT.dir/tablewrapper.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o: /home/dima/2sem/op/AIRPORT/flighttablemodel.cpp
 CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o -MF CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o.d -o CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o -c /home/dima/2sem/op/AIRPORT/flighttablemodel.cpp
 
 CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.i: cmake_force
@@ -485,7 +471,7 @@ CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/qflight.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/qflight.cpp.o: /home/dima/2sem/op/AIRPORT/qflight.cpp
 CMakeFiles/AIRPORT.dir/qflight.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/AIRPORT.dir/qflight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/AIRPORT.dir/qflight.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/qflight.cpp.o -MF CMakeFiles/AIRPORT.dir/qflight.cpp.o.d -o CMakeFiles/AIRPORT.dir/qflight.cpp.o -c /home/dima/2sem/op/AIRPORT/qflight.cpp
 
 CMakeFiles/AIRPORT.dir/qflight.cpp.i: cmake_force
@@ -499,7 +485,7 @@ CMakeFiles/AIRPORT.dir/qflight.cpp.s: cmake_force
 CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
 CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o: /home/dima/2sem/op/AIRPORT/tabledelegate.cpp
 CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o -MF CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o.d -o CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o -c /home/dima/2sem/op/AIRPORT/tabledelegate.cpp
 
 CMakeFiles/AIRPORT.dir/tabledelegate.cpp.i: cmake_force
@@ -510,12 +496,39 @@ CMakeFiles/AIRPORT.dir/tabledelegate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIRPORT.dir/tabledelegate.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dima/2sem/op/AIRPORT/tabledelegate.cpp -o CMakeFiles/AIRPORT.dir/tabledelegate.cpp.s
 
+CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
+CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o: /home/dima/2sem/op/AIRPORT/flightsfilter.cpp
+CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o -MF CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o.d -o CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o -c /home/dima/2sem/op/AIRPORT/flightsfilter.cpp
+
+CMakeFiles/AIRPORT.dir/flightsfilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AIRPORT.dir/flightsfilter.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dima/2sem/op/AIRPORT/flightsfilter.cpp > CMakeFiles/AIRPORT.dir/flightsfilter.cpp.i
+
+CMakeFiles/AIRPORT.dir/flightsfilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIRPORT.dir/flightsfilter.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dima/2sem/op/AIRPORT/flightsfilter.cpp -o CMakeFiles/AIRPORT.dir/flightsfilter.cpp.s
+
+CMakeFiles/AIRPORT.dir/flightschart.cpp.o: CMakeFiles/AIRPORT.dir/flags.make
+CMakeFiles/AIRPORT.dir/flightschart.cpp.o: /home/dima/2sem/op/AIRPORT/flightschart.cpp
+CMakeFiles/AIRPORT.dir/flightschart.cpp.o: CMakeFiles/AIRPORT.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/AIRPORT.dir/flightschart.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIRPORT.dir/flightschart.cpp.o -MF CMakeFiles/AIRPORT.dir/flightschart.cpp.o.d -o CMakeFiles/AIRPORT.dir/flightschart.cpp.o -c /home/dima/2sem/op/AIRPORT/flightschart.cpp
+
+CMakeFiles/AIRPORT.dir/flightschart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AIRPORT.dir/flightschart.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dima/2sem/op/AIRPORT/flightschart.cpp > CMakeFiles/AIRPORT.dir/flightschart.cpp.i
+
+CMakeFiles/AIRPORT.dir/flightschart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIRPORT.dir/flightschart.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dima/2sem/op/AIRPORT/flightschart.cpp -o CMakeFiles/AIRPORT.dir/flightschart.cpp.s
+
 # Object files for target AIRPORT
 AIRPORT_OBJECTS = \
 "CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/AIRPORT.dir/main.cpp.o" \
 "CMakeFiles/AIRPORT.dir/mainwindow.cpp.o" \
-"CMakeFiles/AIRPORT.dir/chartview.cpp.o" \
 "CMakeFiles/AIRPORT.dir/circlechart.cpp.o" \
 "CMakeFiles/AIRPORT.dir/barchart.cpp.o" \
 "CMakeFiles/AIRPORT.dir/editflight.cpp.o" \
@@ -542,7 +555,9 @@ AIRPORT_OBJECTS = \
 "CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o" \
 "CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o" \
 "CMakeFiles/AIRPORT.dir/qflight.cpp.o" \
-"CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o"
+"CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o" \
+"CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o" \
+"CMakeFiles/AIRPORT.dir/flightschart.cpp.o"
 
 # External object files for target AIRPORT
 AIRPORT_EXTERNAL_OBJECTS =
@@ -550,7 +565,6 @@ AIRPORT_EXTERNAL_OBJECTS =
 AIRPORT: CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/main.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/mainwindow.cpp.o
-AIRPORT: CMakeFiles/AIRPORT.dir/chartview.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/circlechart.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/barchart.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/editflight.cpp.o
@@ -578,6 +592,8 @@ AIRPORT: CMakeFiles/AIRPORT.dir/tablewrapper.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/flighttablemodel.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/qflight.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o
+AIRPORT: CMakeFiles/AIRPORT.dir/flightsfilter.cpp.o
+AIRPORT: CMakeFiles/AIRPORT.dir/flightschart.cpp.o
 AIRPORT: CMakeFiles/AIRPORT.dir/build.make
 AIRPORT: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 AIRPORT: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
@@ -588,7 +604,7 @@ AIRPORT: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 AIRPORT: /usr/lib/x86_64-linux-gnu/libGLX.so
 AIRPORT: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 AIRPORT: CMakeFiles/AIRPORT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable AIRPORT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable AIRPORT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AIRPORT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
