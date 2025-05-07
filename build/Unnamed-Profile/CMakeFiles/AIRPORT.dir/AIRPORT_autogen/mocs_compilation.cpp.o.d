@@ -1,6 +1,6 @@
 CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/mocs_compilation.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_addflight.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_barchart.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/memory \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/memoryfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -135,11 +135,15 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward/auto_ptr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/glue_memory_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/execution_defs.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../addflight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../barchart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractBarSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractbarseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstddef \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/utility \
@@ -210,38 +214,26 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/tr1/riemann_zeta.tcc \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/functional \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/std_function.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/unordered_map \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/unordered_map.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/hashtable.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/hashtable_policy.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/node_handle.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/range_access.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/erase_if.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/memory_resource.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/uses_allocator_args.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/vector \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_vector.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_bvector.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/vector.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/array \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/compare \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algo.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/algorithmfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_heap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/uniform_int_dist.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstdlib \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtcharts-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractAxis \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractaxis.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPen \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainertools_impl.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstring \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iterator \
@@ -260,10 +252,12 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/char_traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream_insert.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/cxxabi_forced.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/range_access.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_string.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/string_view \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/string_view.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/string_conversions.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstdlib \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstdio \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -279,13 +273,39 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/charconv.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_string.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/memory_resource.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/uses_allocator_args.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/streambuf.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/algorithm \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algo.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/algorithmfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_heap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/uniform_int_dist.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/functional \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/std_function.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/unordered_map \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/unordered_map.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/hashtable.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/hashtable_policy.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/node_handle.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/erase_if.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/vector \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_vector.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_bvector.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/vector.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/array \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/compare \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h \
@@ -299,39 +319,14 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringtokenizer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/numeric \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_numeric.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/list \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_list.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/list.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/map \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_tree.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_map.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_multimap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
   /usr/lib/llvm-18/lib/clang/18/include/limits.h /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -339,13 +334,51 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/list \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_list.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/list.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/map \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_tree.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_map.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
@@ -358,75 +391,73 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/chrono.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ratio \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ctime \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSet \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarset.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../flightschart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegend.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QBrush \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialogButtonBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qformlayout.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/CUDFlight/cudflight.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/CUDFlight/../Flight/Flight.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../flightsfilter.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../qflight.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Flight/Flight.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
@@ -447,118 +478,87 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Flight/Flight.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_barchart.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../barchart.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractBarSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractbarseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtcharts-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractAxis \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractaxis.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPen \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSet \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarset.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../flightschart.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegend.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayoutitem.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QBrush \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../flightsfilter.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../qflight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_circlechart.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../circlechart.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_editflight.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../editflight.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Manipulations.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Student.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/Widths.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_flightschart.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_flighttablemodel.cpp \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../flighttablemodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QAbstractTableModel \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_linechart.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_chartswrapper.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../chartswrapper.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstackedwidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../circlechart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsDropShadowEffect \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicseffect.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsEffect \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolTip \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtooltip.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../linechart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QCategoryAxis \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qcategoryaxis.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QValueAxis \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvalueaxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../mainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_circlechart.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_filtertoolbox.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../filtertoolbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QButtonGroup \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qbuttongroup.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QCalendar \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QCalendarWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcalendarwidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QCheckBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcheckbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGroupBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgroupbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QRadioButton \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qradiobutton.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../table.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSortFilterProxyModel \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsortfilterproxymodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
@@ -567,13 +567,27 @@ CMakeFiles/AIRPORT.dir/AIRPORT_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../tabledelegate.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../tablefilterproxy.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_flightschart.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_flighttablemodel.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_linechart.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../tablewrapper.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/FileInteractions/FileInteractions.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../../CMAKESRC/FileInteractions/../Flight/Flight.h \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_requests.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../requests.h \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_table.cpp \
   /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_tabledelegate.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_tablewrapper.cpp \
-  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/../../../../tablewrapper.h
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_tablefilterproxy.cpp \
+  /home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/AIRPORT_autogen/EWIEGA46WW/moc_tablewrapper.cpp

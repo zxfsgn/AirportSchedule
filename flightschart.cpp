@@ -1,10 +1,12 @@
 #include "flightschart.h"
 
-FlightsChart::FlightsChart(QList<QFlight> flights,
+FlightsChart::FlightsChart(QList<QFlight>& flights,
                            QColumns column,
                            QGraphicsItem* parent)
-    : column(column), QChart{parent} {
+    : flights(flights), column(column), QChart{parent} {
   filter = new FlightsFilter(flights, column);
+  // connect(model, &FlightTableModel::dataChanged, this,
+  //         &FlightsChart::createSeries);
   // remake FLIGHTSHASH  through template somehow
   // flightsHash = filter->filteredFlights<QString>();
 
@@ -24,3 +26,7 @@ void FlightsChart::customizeView() {
   chartView->setRenderHint(QPainter::Antialiasing);
   chartView->setVisible(true);
 }
+
+// void FlightsChart::initializeModel(FlightTableModel* newModel) {
+//   model = newModel;
+// }

@@ -10,11 +10,9 @@
 #include <QLabel>
 #include <QPushButton>
 
-#include "barchart.h"
-#include "circlechart.h"
-#include "linechart.h"
+#include "chartswrapper.h"
 #include "qflight.h"
-#include "table.h"
+#include "tablewrapper.h"
 // #include "requests.h"
 
 #include "../CMAKESRC/FileInteractions/FileInteractions.h"
@@ -29,14 +27,8 @@ class MainWindow : public QMainWindow {
 
  private:
   QTabWidget* tabs;
-  Table* table;
-  QWidget* charts;
-  QPushButton* editButton;
-  QPushButton* deleteButton;
-  QPushButton* addButton;
-  CircleChart* circleChart;
-  BarChart* barChart;
-  LineChart* lineChart;
+  TableWrapper* tableWrapper;
+  ChartsWrapper* chartsWrapper;
   //Requests* m_requests;
 
   QList<QFlight> flights;

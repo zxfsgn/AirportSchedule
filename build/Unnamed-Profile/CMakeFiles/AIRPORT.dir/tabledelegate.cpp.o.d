@@ -403,6 +403,10 @@ CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
@@ -417,9 +421,8 @@ CMakeFiles/AIRPORT.dir/tabledelegate.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleditemdelegate.h \
   /home/dima/2sem/op/AIRPORT/qflight.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
   /home/dima/2sem/op/AIRPORT/../CMAKESRC/Flight/Flight.h \

@@ -1,6 +1,6 @@
 #include "barchart.h"
 
-BarChart::BarChart(QList<QFlight> flights,
+BarChart::BarChart(QList<QFlight>& flights,
                    QColumns column,
                    QGraphicsItem* parent)
     : FlightsChart(flights, column, parent) {
@@ -9,15 +9,21 @@ BarChart::BarChart(QList<QFlight> flights,
 }
 
 void BarChart::createSeries() {
-  auto series = new QBarSeries();
+  removeAllSeries();
+  flightsHash = filter->filteredFlights<QString>();
+  auto newSeries = new QBarSeries();
   for (const auto& destination : flightsHash.keys()) {
     auto set = new QBarSet(destination);
     *set << flightsHash[destination];
     // auto color = new QColor("red");
     // auto brush = new QBrush(static_cast<Qt::GlobalColor>(i));
     // slice->setBrush(*brush);
-    series->append(set);
+    newSeries->append(set);
   }
-  series->setLabelsVisible(true);
-  addSeries(series);
+  newSeries->setLabelsVisible(true);
+  addSeries(newSeries);
 }
+
+// void BarChart::update(QList<QFlight> flights){
+
+// }
