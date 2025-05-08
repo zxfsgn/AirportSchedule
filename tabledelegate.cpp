@@ -6,6 +6,13 @@ QWidget* TableDelegate::createEditor(QWidget* parent,
                                      const QStyleOptionViewItem& option,
                                      const QModelIndex& index) const {
   switch (static_cast<QColumns>(index.column())) {
+    case QColumns::Date: {
+      QDateEdit* dateEdit = new QDateEdit(parent);
+      dateEdit->setCalendarPopup(true);
+      dateEdit->setDate(QDate::currentDate());
+      return dateEdit;
+    }
+
     case QColumns::Seats: {
       QSpinBox* spinBox = new QSpinBox(parent);
       spinBox->setRange(0, 200);
@@ -23,9 +30,9 @@ QWidget* TableDelegate::createEditor(QWidget* parent,
 
     case QColumns::Aircraft: {
       QComboBox* comboBox = new QComboBox(parent);
-      comboBox->addItems({"A320", "Boeing737", "B737NG", "Bombardier_Dash-8",
+      comboBox->addItems({"А320", "Boeing737", "B737NG", "Bombardier_Dash-8",
                           "Sukhoi_Superjet_100", "Embraer", "Boeing777",
-                          "Ан-24"});
+                          "Ан-24"});  // place in some other place
       return comboBox;
     }
 

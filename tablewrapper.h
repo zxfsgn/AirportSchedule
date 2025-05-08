@@ -1,29 +1,42 @@
 #ifndef TABLEWRAPPER_H
 #define TABLEWRAPPER_H
 
-#include <QVBoxLayout>
-#include <QWidget>
+#include <QGridLayout>
+#include <QLabel>
+#include <QPushButton>
+#include <QToolBox>
 
+#include "filtertoolbox.h"
 #include "table.h"
 
 class TableWrapper : public QWidget {
   Q_OBJECT
  public:
-  explicit TableWrapper(Flight* flights,
-                        size_t& flightsAmount,
-                        QWidget* parent = nullptr);
+  explicit TableWrapper(QList<QFlight>& flights, QWidget* parent = nullptr);
 
+  Table* table;
  signals:
+  void updated();
 
  private:
-  QVBoxLayout* layout;
-  Table* table;
+  QGridLayout* layout;
   QWidget* toolBar;
   QWidget* header;
 
+  QPushButton* editButton;
+  QPushButton* deleteButton;
+  QPushButton* addButton;
+  QCheckBox* lastColumnVisibilityCheckbox;
+
+  QLineEdit* searchField;
+  FilterToolBox* filterToolBox;
+
+  void createWidgets();
+  void layoutSetting();
+  void setConnections();
+
  protected:
-  Flight* flights;
-  size_t& flightsAmount;
+  QList<QFlight>& flights;
 };
 
 #endif  // TABLEWRAPPER_H

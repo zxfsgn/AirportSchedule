@@ -6,26 +6,31 @@
 #include <QList>
 
 #include "flightsfilter.h"
+#include "flighttablemodel.h"
 #include "qflight.h"
 
 class FlightsChart : public QChart {
   Q_OBJECT
 
  public:
-  explicit FlightsChart(QList<QFlight> flights,
+  explicit FlightsChart(QList<QFlight>& flights,
                         QColumns column,
                         QGraphicsItem* parent = nullptr);
 
   QChartView* chartView;
 
+ protected slots:
+  void createSeries() {}
+  // void initializeModel(FlightTableModel*);
+
  protected:
-  QList<QFlight> flights;
+  // FlightTableModel* model{};
+  QList<QFlight>& flights;
   QColumns column;
   FlightsFilter* filter;
   //??TEMPLATE??
   QHash<QString, int> flightsHash;
 
-  void createSeries() {}
   void customizeChart();
   void customizeView();
 };

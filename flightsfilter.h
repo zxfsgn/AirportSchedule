@@ -10,7 +10,7 @@
 
 class FlightsFilter {
  public:
-  FlightsFilter(QList<QFlight> flights, QColumns column);
+  FlightsFilter(QList<QFlight>& flights, QColumns column);
 
   template <typename T>
   QHash<T, int> filteredFlights() {
@@ -21,9 +21,9 @@ class FlightsFilter {
     }
     return flightsHash;
   }
+  QList<QFlight>& flights;
 
  private:
-  QList<QFlight> flights;
   QColumns column;
 
   template <typename T>
@@ -38,8 +38,8 @@ class FlightsFilter {
           return flights[index].destination;
         break;
       case QColumns::Date:
-        if constexpr (std::is_same_v<T, QDate>)
-          return flights[index].date;
+        if constexpr (std::is_same_v<T, int>)
+          return flights[index].date.month();
         break;
       default:
         break;

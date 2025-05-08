@@ -237,15 +237,15 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/dima/2sem/op/AIRPORT/addflight.h",
-			"MU",
-			"EWIEGA46WW/moc_addflight.cpp",
-			null
-		],
-		[
 			"/home/dima/2sem/op/AIRPORT/barchart.h",
 			"MU",
 			"EWIEGA46WW/moc_barchart.cpp",
+			null
+		],
+		[
+			"/home/dima/2sem/op/AIRPORT/chartswrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_chartswrapper.cpp",
 			null
 		],
 		[
@@ -255,9 +255,9 @@
 			null
 		],
 		[
-			"/home/dima/2sem/op/AIRPORT/editflight.h",
+			"/home/dima/2sem/op/AIRPORT/filtertoolbox.h",
 			"MU",
-			"EWIEGA46WW/moc_editflight.cpp",
+			"EWIEGA46WW/moc_filtertoolbox.cpp",
 			null
 		],
 		[
@@ -297,12 +297,6 @@
 			null
 		],
 		[
-			"/home/dima/2sem/op/AIRPORT/requests.h",
-			"MU",
-			"EWIEGA46WW/moc_requests.cpp",
-			null
-		],
-		[
 			"/home/dima/2sem/op/AIRPORT/table.h",
 			"MU",
 			"EWIEGA46WW/moc_table.cpp",
@@ -312,6 +306,12 @@
 			"/home/dima/2sem/op/AIRPORT/tabledelegate.h",
 			"MU",
 			"EWIEGA46WW/moc_tabledelegate.cpp",
+			null
+		],
+		[
+			"/home/dima/2sem/op/AIRPORT/tablefilterproxy.h",
+			"MU",
+			"EWIEGA46WW/moc_tablefilterproxy.cpp",
 			null
 		],
 		[
@@ -505,10 +505,10 @@
 	"SETTINGS_FILE" : "/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/AIRPORT_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/dima/2sem/op/AIRPORT/addflight.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/barchart.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/chartswrapper.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/circlechart.cpp", "MU", null ],
-		[ "/home/dima/2sem/op/AIRPORT/editflight.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/filtertoolbox.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/flightschart.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/flightsfilter.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/flighttablemodel.cpp", "MU", null ],
@@ -516,9 +516,9 @@
 		[ "/home/dima/2sem/op/AIRPORT/main.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/mainwindow.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/qflight.cpp", "MU", null ],
-		[ "/home/dima/2sem/op/AIRPORT/requests.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/table.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/tabledelegate.cpp", "MU", null ],
+		[ "/home/dima/2sem/op/AIRPORT/tablefilterproxy.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/AIRPORT/tablewrapper.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/CMAKESRC/BinaryInput.cpp", "MU", null ],
 		[ "/home/dima/2sem/op/CMAKESRC/CUDFlight/cudflight.cpp", "MU", null ],

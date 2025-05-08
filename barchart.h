@@ -9,12 +9,13 @@
 class BarChart : public FlightsChart {
   Q_OBJECT
  public:
-  explicit BarChart(QList<QFlight> flights,
+  explicit BarChart(QList<QFlight>& flights,
                     QColumns column = QColumns::Destination,
                     QGraphicsItem* parent = nullptr);
 
- private:
   void createSeries();
+
+ private:
 };
 
 #endif  // BARCHART_H

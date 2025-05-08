@@ -46,11 +46,13 @@ class FlightTableModel : public QAbstractTableModel {
 
   void sort(int column, Qt::SortOrder order = Qt::AscendingOrder) override;
 
+  QList<QFlight>& flights() const;
  public slots:
   void switchEditability();
 
  signals:
   void editCompleted(const QString& message);
+  void created(FlightTableModel* model);
 
  private:
   bool isEditable = false;

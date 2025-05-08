@@ -2,6 +2,7 @@
 #define TABLEDELEGATE_H
 
 #include <QComboBox>
+#include <QDateEdit>
 #include <QLineEdit>
 #include <QSpinBox>
 #include <QStyledItemDelegate>

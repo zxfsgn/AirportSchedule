@@ -4,7 +4,7 @@ FlightTableModel::FlightTableModel(QList<QFlight>& flights, QObject* parent)
     : m_flights(flights),
       m_columnAmount(static_cast<size_t>(QColumns::COLUMN_COUNT)),
       QAbstractTableModel(parent) {
-  /*m_CUDFlight = new CUDFlight(m_flights, flights.size())*/;
+  emit created(this);
 }
 
 QVariant FlightTableModel::headerData(int section,
@@ -75,8 +75,12 @@ QVariant FlightTableModel::data(const QModelIndex& index, int role) const {
           return flight->aircraft;
         case QColumns::Seats:
           return flight->seats;
-        case QColumns::Intermediate:
-          return flight->intermediate;
+        case QColumns::Intermediate: {
+          QString intermediate = flight->intermediate;
+          if (intermediate == "NULL")
+            intermediate = "";
+          return intermediate;
+        }
         default:
           break;
       }
@@ -87,9 +91,9 @@ QVariant FlightTableModel::data(const QModelIndex& index, int role) const {
       }
       break;
     case Qt::BackgroundRole:
-      if (index.row() % 2 == 0) {
-        return QColor("purple");
-      }
+      // if (index.row() % 2 == 0) {
+      return QColor("black-pink");
+      //}
       break;
     case Qt::TextAlignmentRole:
       if (index.column() == 1 || index.column() == 2) {
@@ -140,13 +144,17 @@ bool FlightTableModel::setData(const QModelIndex& index,
       case QColumns::Seats:
         flight->seats = value.toUInt();
         break;
-      case QColumns::Intermediate:
-        flight->intermediate = value.toString();
+      case QColumns::Intermediate: {
+        QString intermediate = value.toString();
+        if (intermediate == "")
+          intermediate = "NULL";
+        flight->intermediate = intermediate;
         break;
+      }
       default:
         break;
     }
-
+    emit editCompleted(QString("dataChanged"));
     emit dataChanged(index, index, {role});
     return true;
   }
@@ -168,6 +176,7 @@ void FlightTableModel::addFlight(const QFlight& flight) {
   beginInsertRows(QModelIndex(), m_flights.size(), m_flights.size());
   m_flights.push_back(flight);
   endInsertRows();
+  emit editCompleted(QString("Строка была добавлена"));
 }
 
 bool FlightTableModel::removeRows(int row,
@@ -226,4 +235,8 @@ bool fieldCompare(QColumns column,
       break;
   }
   return true;
+}
+
+QList<QFlight>& FlightTableModel::flights() const {
+  return m_flights;
 }
