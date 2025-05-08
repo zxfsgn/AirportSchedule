@@ -1,9 +1,0 @@
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/AIRPORT.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/edit_cache.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/rebuild_cache.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/list_install_components.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/install.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/install/local.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/install/strip.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/AIRPORT_autogen_timestamp_deps.dir
-/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/CMakeFiles/AIRPORT_autogen.dir
