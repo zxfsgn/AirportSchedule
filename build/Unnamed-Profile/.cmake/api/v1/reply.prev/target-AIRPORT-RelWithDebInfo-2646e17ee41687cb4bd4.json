@@ -53,7 +53,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -77,13 +77,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 83,
+				"line" : 84,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 66,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
@@ -440,8 +440,7 @@
 				60,
 				62,
 				64,
-				66,
-				68
+				66
 			]
 		}
 	],
@@ -569,8 +568,7 @@
 				60,
 				62,
 				64,
-				66,
-				68
+				66
 			]
 		},
 		{
@@ -608,8 +606,7 @@
 				59,
 				61,
 				63,
-				65,
-				67
+				65
 			]
 		},
 		{
@@ -619,14 +616,14 @@
 				13,
 				36,
 				37,
-				69
+				67
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				70
+				68
 			]
 		}
 	],
@@ -998,17 +995,6 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "tablefilterproxy.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"path" : "custombuttongroup.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "custombuttongroup.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
