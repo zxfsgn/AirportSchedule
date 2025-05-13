@@ -2,21 +2,23 @@
 #define MAINWINDOW_H
 
 #include <QDialog>
+#include <QFile>
 #include <QGridLayout>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QLabel>
+#include <QList>
 #include <QMainWindow>
+#include <QMessageBox>
+#include <QPushButton>
 #include <QTabWidget>
 #include <QToolBar>
-#include <QList>
-#include <QLabel>
-#include <QPushButton>
 
 #include "chartswrapper.h"
 #include "qflight.h"
 #include "tablewrapper.h"
 // #include "requests.h"
-
-#include "../CMAKESRC/FileInteractions/FileInteractions.h"
-#include "../CMAKESRC/Flight/Flight.h"
 
 class MainWindow : public QMainWindow {
   Q_OBJECT
@@ -25,16 +27,27 @@ class MainWindow : public QMainWindow {
   MainWindow(QWidget* parent = nullptr);
   ~MainWindow();
 
+ signals:
+  void jsonParsed(QList<QFlight>);
+
+ protected:
+  void closeEvent(QCloseEvent* event) override;
+
  private:
+  const QString FILE_NAME = "Flights.bin";
+
   QTabWidget* tabs;
   TableWrapper* tableWrapper;
   ChartsWrapper* chartsWrapper;
-  //Requests* m_requests;
+  // Requests* m_requests;
 
   QList<QFlight> flights;
-  FileInteractions* fileInteractions;
 
   void setTab();
-  void initializeFlights();
+  void setStyles();
+  bool loadFlightsFromBinary();
+  bool saveFlightsToBinary();
+  bool wannaSave();
+  void parseFlightsFromJson(const QString& filePath);
 };
 #endif  // MAINWINDOW_H

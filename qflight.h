@@ -1,6 +1,7 @@
 #ifndef QFLIGHT_H
 #define QFLIGHT_H
 
+#include <QDataStream>
 #include <QDate>
 #include <QDebug>
 #include <QList>
@@ -23,7 +24,7 @@ enum class QColumns {
 class QFlight {
  public:
   QFlight(const Flight& flight);
-  QFlight(quint32 number,
+  QFlight(QString number,
           QDate date,
           QTime time,
           QString destination,
@@ -34,7 +35,7 @@ class QFlight {
   QFlight(const QFlight& flight) = default;
   ~QFlight() = default;
 
-  quint32 number;
+  QString number;
   QDate date;
   QTime time;
   QString destination;
@@ -42,6 +43,9 @@ class QFlight {
   quint32 seats;
   QString intermediate;
 };
+
+QDataStream& operator>>(QDataStream& in, QFlight& flight);
+QDataStream& operator<<(QDataStream& out, const QFlight& flight);
 
 namespace flightOptions {
 const QStringList aircrafts = {"А320",

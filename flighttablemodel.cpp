@@ -90,11 +90,11 @@ QVariant FlightTableModel::data(const QModelIndex& index, int role) const {
         return QFont("Arial", 10, QFont::Bold);
       }
       break;
-    case Qt::BackgroundRole:
-      // if (index.row() % 2 == 0) {
-      return QColor("black-pink");
-      //}
-      break;
+    // case Qt::BackgroundRole:
+    //   // if (index.row() % 2 == 0) {
+    //   return QColor("black-pink");
+    //   //}
+    //   break;
     case Qt::TextAlignmentRole:
       if (index.column() == 1 || index.column() == 2) {
         return Qt::AlignCenter;
@@ -127,7 +127,7 @@ bool FlightTableModel::setData(const QModelIndex& index,
     // }
     switch (static_cast<QColumns>(index.column())) {
       case QColumns::Number:
-        flight->number = value.toUInt();
+        flight->number = value.toString();
         break;
       case QColumns::Date:
         flight->date = value.toDate();
@@ -164,10 +164,9 @@ bool FlightTableModel::setData(const QModelIndex& index,
 Qt::ItemFlags FlightTableModel::flags(const QModelIndex& index) const {
   if (!index.isValid())
     return Qt::NoItemFlags;
-  Qt::ItemFlags flags = Qt::ItemIsSelectable | Qt::ItemIsEnabled |
-                        QAbstractTableModel::flags(index);
+  Qt::ItemFlags flags = Qt::ItemIsEnabled;
   if (isEditable) {
-    flags |= Qt::ItemIsEditable;
+    flags |= Qt::ItemIsSelectable | Qt::ItemIsEditable;
   }
   return flags;
 }
@@ -218,7 +217,7 @@ bool fieldCompare(QColumns column,
                   bool isAscending) {
   switch (column) {
     case QColumns::Number:
-      return valueCompare<quint32>(a.number, b.number, isAscending);
+      return valueCompare<QString>(a.number, b.number, isAscending);
     case QColumns::Date:
       return valueCompare<QDate>(a.date, b.date, isAscending);
     case QColumns::Time:
@@ -237,6 +236,10 @@ bool fieldCompare(QColumns column,
   return true;
 }
 
-QList<QFlight>& FlightTableModel::flights() const {
+QList<QFlight>& FlightTableModel::flights() {
   return m_flights;
+}
+
+void FlightTableModel::initializeDefaultFlights(QList<QFlight> flights) {
+  defaultFlights = flights;
 }

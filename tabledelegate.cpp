@@ -85,3 +85,33 @@ void TableDelegate::updateEditorGeometry(QWidget* editor,
                                          const QModelIndex& index) const {
   editor->setGeometry(option.rect);
 }
+
+void TableDelegate::paint(QPainter* painter,
+                          const QStyleOptionViewItem& option,
+                          const QModelIndex& index) const {
+  // if (index.column() == 4) {  // Aircraft column
+  //   QStyleOptionViewItem opt = option;
+  //   initStyleOption(&opt, index);
+
+  //   // Custom drawing
+  //   painter->save();
+  //   painter->setRenderHint(QPainter::Antialiasing);
+
+  //   // Draw background
+  //   painter->fillRect(opt.rect, QColor(240, 248, 255));
+
+  //   // Draw aircraft icon
+  //   // QRect iconRect = opt.rect.adjusted(4, 4, -4, -4);
+  //   // QPixmap icon(":/icons/airplane.png");
+  //   // painter->drawPixmap(iconRect, icon);
+
+  //   // Draw text
+  //   painter->setPen(Qt::black);
+  //   painter->drawText(opt.rect.adjusted(30, 0, 0, 0), Qt::AlignVCenter,
+  //                     index.data().toString());
+
+  //   painter->restore();
+  // } else {
+  QStyledItemDelegate::paint(painter, option, index);
+  // }
+}

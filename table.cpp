@@ -3,6 +3,9 @@
 Table::Table(QList<QFlight>& flights, QWidget* parent)
     : flights(flights), QTableView(parent) {
   horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeMode::Stretch);
+  horizontalHeader()->setStyleSheet(R"(
+
+    )");
   m_model = new FlightTableModel(flights);
   delegate = new TableDelegate(this);
 
@@ -17,10 +20,21 @@ Table::Table(QList<QFlight>& flights, QWidget* parent)
   setSortingEnabled(true);
   sortByColumn(0, Qt::AscendingOrder);
   horizontalHeader()->setSortIndicatorShown(true);
+  setStyles();
 }
 
 void Table::deleteSelectedRows() {
   QModelIndexList selected = this->selectionModel()->selectedRows();
+  if (selected.isEmpty()) {
+    return;
+  }
+  QMessageBox box(this);
+  box.setText("Есть уверенность?");
+  box.setIcon(QMessageBox::Question);
+  box.addButton(QMessageBox::Apply);
+  box.addButton(QMessageBox::Cancel);
+  if (box.exec() == QMessageBox::Cancel)
+    return;
   std::sort(selected.begin(), selected.end(),
             [](const QModelIndex& a, const QModelIndex& b) {
               return a.row() > b.row();
@@ -28,6 +42,52 @@ void Table::deleteSelectedRows() {
   for (const QModelIndex& index : selected) {
     proxyModel()->removeRows(index.row(), 1);
   }
+}
+
+void Table::setStyles() {
+  // Special styling for flight table
+  QString tableStyle = R"(
+    QTableView {
+        font: 11pt "Segoe UI";
+        color: #3d8eff;
+        selection-background-color: #3d8eff;
+        selection-color: white;
+    }
+
+    QTableView::item {
+        padding: 6px;
+    }
+
+    QTableView::item:selected {
+        background: #3d8eff;
+        color: white;
+    }
+
+    /* Color coding for different aircraft types */
+    QTableView::item[aircraft="Boeing737"] {
+        background: #e3f2fd;
+    }
+
+    QTableView::item[aircraft="A320"] {
+        background: #e8f5e9;
+    }
+
+    /* Highlight today's flights */
+    QTableView::item[date=today] {
+        border-left: 3px solid #ff9800;
+    }
+)";
+
+  // QGraphicsOpacityEffect* effect = new QGraphicsOpacityEffect(this);
+  // setGraphicsEffect(effect);
+
+  // QPropertyAnimation* animation = new QPropertyAnimation(effect, "opacity");
+  // animation->setDuration(300);
+  // animation->setStartValue(0);
+  // animation->setEndValue(1);
+  // animation->start(QPropertyAnimation::DeleteWhenStopped);
+
+  setStyleSheet(tableStyle);
 }
 
 void Table::addRow() {
@@ -46,7 +106,7 @@ void Table::createProxy() {
 }
 
 void Table::filterController(QAbstractButton* button, bool checked) {
-  // there is shit-code in this function as I have no
+  // there is a shit-code in this function as I have no
   // time to use subfunctions and enums
   //****//
   // think I should pass a enum value, not string
@@ -88,4 +148,13 @@ void Table::filterController(QAbstractButton* button, bool checked) {
 void Table::switchVisibilityLastColumn(bool show) {
   int columnNumber = static_cast<int>(QColumns::Intermediate);
   setColumnHidden(columnNumber, !show);
+}
+
+void Table::dateFilterController(const QDate& date, bool add) {
+  Filters newFilters{proxyModel()->filters()};
+  if (add)
+    newFilters.date.append(date);
+  else
+    newFilters.date.removeAll(date);
+  proxyModel()->setFilters(newFilters);
 }

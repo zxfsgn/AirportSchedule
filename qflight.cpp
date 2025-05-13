@@ -1,7 +1,7 @@
 #include "qflight.h"
 
 QFlight::QFlight(const Flight& flight) {
-  number = flight.number;
+  number = QString::number(flight.number);
   date = QDate::fromString(QString::fromStdWString(flight.date), "dd.MM.yy");
   if (!date.isValid()) {
     qDebug() << "Invalid date";
@@ -16,7 +16,7 @@ QFlight::QFlight(const Flight& flight) {
   intermediate = QString::fromStdWString(flight.intermediate);
 }
 
-QFlight::QFlight(quint32 number,
+QFlight::QFlight(QString number,
                  QDate date,
                  QTime time,
                  QString destination,
@@ -30,3 +30,15 @@ QFlight::QFlight(quint32 number,
       aircraft(aircraft),
       seats(seats),
       intermediate(intermediate) {}
+
+QDataStream& operator>>(QDataStream& in, QFlight& flight) {
+  in >> flight.number >> flight.date >> flight.time >> flight.destination >>
+      flight.aircraft >> flight.seats >> flight.intermediate;
+  return in;
+}
+
+QDataStream& operator<<(QDataStream& out, const QFlight& flight) {
+  out << flight.number << flight.date << flight.time << flight.destination
+      << flight.aircraft << flight.seats << flight.intermediate;
+  return out;
+}

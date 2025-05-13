@@ -4,6 +4,7 @@
 #include <QComboBox>
 #include <QDateEdit>
 #include <QLineEdit>
+#include <QPainter>
 #include <QSpinBox>
 #include <QStyledItemDelegate>
 
@@ -24,6 +25,9 @@ class TableDelegate : public QStyledItemDelegate {
   void updateEditorGeometry(QWidget* editor,
                             const QStyleOptionViewItem& option,
                             const QModelIndex& index) const override;
+  void paint(QPainter* painter,
+             const QStyleOptionViewItem& option,
+             const QModelIndex& index) const override;
 };
 
 #endif  // TABLEDELEGATE_H

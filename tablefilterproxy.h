@@ -51,7 +51,6 @@ class TableFilterProxy : public QSortFilterProxyModel {
     }
 
     if constexpr (std::is_same_v<T, QTime>) {
-      qDebug() << filter.addSecs(secsRange);
       return !filter.isValid() ||
              data >= filter && data <= filter.addSecs(secsRange);
     }

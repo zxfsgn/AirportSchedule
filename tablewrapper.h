@@ -5,6 +5,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QToolBox>
+#include <QToolButton>
 
 #include "filtertoolbox.h"
 #include "table.h"
@@ -23,9 +24,9 @@ class TableWrapper : public QWidget {
   QWidget* toolBar;
   QWidget* header;
 
-  QPushButton* editButton;
-  QPushButton* deleteButton;
-  QPushButton* addButton;
+  QToolButton* editButton;
+  QToolButton* deleteButton;
+  QToolButton* addButton;
   QCheckBox* lastColumnVisibilityCheckbox;
 
   QLineEdit* searchField;
@@ -34,6 +35,7 @@ class TableWrapper : public QWidget {
   void createWidgets();
   void layoutSetting();
   void setConnections();
+  void createToolButton(QToolButton*& button, QString iconSrc);
 
  protected:
   QList<QFlight>& flights;

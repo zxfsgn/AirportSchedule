@@ -5,8 +5,11 @@
 #include <QCheckBox>
 #include <QDebug>
 #include <QFont>
+#include <QGraphicsOpacityEffect>
 #include <QHeaderView>
 #include <QList>
+#include <QMessageBox>
+#include <QPropertyAnimation>
 #include <QRadioButton>
 #include <QSortFilterProxyModel>
 #include <QString>
@@ -34,6 +37,7 @@ class Table : public QTableView {
   void addRow();
   void filterController(QAbstractButton* button, bool checked);
   void switchVisibilityLastColumn(bool show);
+  void dateFilterController(const QDate& date, bool add);
 
  private:
   QList<QFlight>& flights;
@@ -44,6 +48,7 @@ class Table : public QTableView {
   TableDelegate* delegate;
 
   void createProxy();
+  void setStyles();
 };
 
 #endif  // TABLE_H

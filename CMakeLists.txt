@@ -15,6 +15,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Charts Core)
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
+        mainwindow.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -24,16 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 
         circlechart.h circlechart.cpp
         barchart.h barchart.cpp
-
         linechart.h linechart.cpp
-        ../CMAKESRC/FileInteractions/FileInteractions.cpp ../CMAKESRC/FileInteractions/FileInteractions.h ../CMAKESRC/Flight/Flight.cpp ../CMAKESRC/Flight/Flight.h ../CMAKESRC/a.out ../CMAKESRC/BinaryInput.cpp ../CMAKESRC/BinaryInput.h ../CMAKESRC/Date.h ../CMAKESRC/FileInput.cpp ../CMAKESRC/FileInput.h ../CMAKESRC/FileOutput.cpp ../CMAKESRC/FileOutput.h ../CMAKESRC/InputChecks.cpp ../CMAKESRC/InputChecks.h ../CMAKESRC/InputKeyboard.cpp ../CMAKESRC/InputKeyboard.h ../CMAKESRC/Manipulations.cpp ../CMAKESRC/Manipulations.h ../CMAKESRC/Others.cpp ../CMAKESRC/Others.h ../CMAKESRC/OutputScreen.cpp ../CMAKESRC/OutputScreen.h ../CMAKESRC/Request.cpp ../CMAKESRC/Request.h ../CMAKESRC/Source.cpp ../CMAKESRC/Source.h ../CMAKESRC/Student.h ../CMAKESRC/Flights.bin ../CMAKESRC/Flights.txt ../CMAKESRC/Widths.h
-        ../CMAKESRC/CUDFlight/cudflight.cpp ../CMAKESRC/CUDFlight/cudflight.h
-        ../CMAKESRC/CriteriaSum/criteriasum.cpp ../CMAKESRC/CriteriaSum/criteriasum.h
-
         table.h table.cpp
-
-        ../CMAKESRC/Sort/Sort.cpp ../CMAKESRC/Sort/Sort.h
-        ../CMAKESRC/Search/search.cpp ../CMAKESRC/Search/search.h
         tablewrapper.h tablewrapper.cpp
         flighttablemodel.h flighttablemodel.cpp
         qflight.h qflight.cpp
@@ -43,6 +36,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         chartswrapper.h chartswrapper.cpp
         filtertoolbox.h filtertoolbox.cpp
         tablefilterproxy.h tablefilterproxy.cpp
+        datefiltertoolboxitem.h datefiltertoolboxitem.cpp
+
+        Brekotking.jpg
+        Flights.bin
+        Images.qrc
+        edit.png plus.png trash.png
+        check.png
+        Flights.json
 
     )
 # Define target properties for Android with Qt 6 as:

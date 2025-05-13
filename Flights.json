@@ -1,0 +1,67 @@
+{
+  "flights": [
+    {
+      "number": "WZ4669",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Стамбул",
+      "aircraft": "SSJ-100",
+      "seats": 150,
+      "intermediate": ""
+    },
+    {
+      "number": "D2509",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Минск",
+      "aircraft": "CRJ-200",
+      "seats": 150,
+      "intermediate": ""
+    },
+    {
+      "number": "ИН712",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Санкт-Петербург",
+      "aircraft": "SSJ-100",
+      "seats": 150,
+      "intermediate": ""
+    },
+    {
+      "number": "А44014",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Санкт-Петербург",
+      "aircraft": "SSJ-100",
+      "seats": 150,
+      "intermediate": ""
+    },
+    {
+      "number": "А45114",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Сочи",
+      "aircraft": "SSJ-100",
+      "seats": 150,
+      "intermediate": ""
+    },
+    {
+      "number": "А46304",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Минеральные воды",
+      "aircraft": "SSJ-100",
+      "seats": 150,
+      "intermediate": ""
+    },
+    {
+      "number": "ЮВ646",
+      "date": "2025-12-25",
+      "time": "14:30",
+      "destination": "Казань",
+      "aircraft": "CRJ-200",
+      "seats": 150,
+      "intermediate": ""
+    }
+  ]
+}
