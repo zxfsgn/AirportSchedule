@@ -1,14 +1,13 @@
 #ifndef QFLIGHT_H
 #define QFLIGHT_H
 
-#include <QDataStream>
 #include <QDate>
 #include <QDebug>
 #include <QList>
+#include <QRandomGenerator>
 #include <QString>
+#include <QTextStream>
 #include <QTime>
-
-#include "../CMAKESRC/Flight/Flight.h"
 
 enum class QColumns {
   Number,
@@ -22,8 +21,12 @@ enum class QColumns {
 };
 
 class QFlight {
+  static QDate generateDate();
+  static QTime generateTime();
+
  public:
-  QFlight(const Flight& flight);
+  static QFlight* generateRandomFlight();
+
   QFlight(QString number,
           QDate date,
           QTime time,
@@ -44,8 +47,8 @@ class QFlight {
   QString intermediate;
 };
 
-QDataStream& operator>>(QDataStream& in, QFlight& flight);
-QDataStream& operator<<(QDataStream& out, const QFlight& flight);
+QTextStream& operator>>(QTextStream& in, QFlight& flight);
+QTextStream& operator<<(QTextStream& out, const QFlight& flight);
 
 namespace flightOptions {
 const QStringList aircrafts = {"А320",
@@ -58,8 +61,16 @@ const QStringList aircrafts = {"А320",
                                "Ан-24"};
 
 const QStringList destinations = {
-    "Хабаровск",       "Железногорск", "Горнозаводск", "Москва",
-    "Санкт-Петербург", "Красноярск",   "Псков",        "Новосибирск"};
+    "Москва",  "Санкт-Петербург", "Новосибирск", "Екатеринбург",
+    "Казань",  "Железногорск",    "Челябинск",   "Самара",
+    "Омск",    "Ростов-на-Дону",  "Уфа",         "Красноярск",
+    "Пермь",   "Воронеж",         "Волгоград",   "Краснодар",
+    "Саратов", "Тюмень",          "Тольятти",    "Ижевск"};
+
+const QStringList intermediate = {"NULL",       "Ярославль",   "Иркутск",
+                                  "Барнаул",    "Владивосток", "Хабаровск",
+                                  "Ставрополь", "Сочи",        "Калининград",
+                                  "Тула",       "Архангельск", "Горонозаводск"};
 }  // namespace flightOptions
 
 #endif  // QFLIGHT_H

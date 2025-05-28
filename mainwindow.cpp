@@ -3,7 +3,9 @@
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
   setWindowTitle("Расписание рейсов[*]");
   loadFlightsFromBinary();
-  parseFlightsFromJson("Flights.json");
+  // generateRandomFlights(109);
+  // parseFlightsFromJson(
+  //     "/home/dima/2sem/op/AIRPORT/build/Unnamed-Profile/Flights.json");
   setTab();
   QWidget* menu = new QWidget();
   setMenuWidget(menu);
@@ -61,6 +63,7 @@ void MainWindow::parseFlightsFromJson(const QString& filePath) {
     flight.intermediate = obj["intermediate"].toString();
 
     flights.append(flight);
+    this->flights = flights;
   }
   emit jsonParsed(flights);
 }
@@ -175,12 +178,16 @@ bool MainWindow::loadFlightsFromBinary() {
     qWarning() << "Could not open file for reading:" << FILE_NAME;
     return false;
   }
-  QDataStream in(&file);
+  QTextStream in(&file);
 
   // in.setVersion(QDataStream::Qt_DefaultCompiledVersion);
 
-  in >> flights;
-
+  QFlight flight;
+  while (!in.atEnd()) {
+    in >> flight;
+    flights.push_back(flight);
+    in.read(1);
+  }
   file.close();
   return true;
 }
@@ -191,12 +198,12 @@ bool MainWindow::saveFlightsToBinary() {
     qWarning() << "Could not open file for writing:" << FILE_NAME;
     return false;
   }
-  QDataStream out(&file);
+  QTextStream out(&file);
 
   // out.setVersion(QDataStream::Qt_DefaultCompiledVersion);
-
-  out << flights;
-
+  foreach (const auto& flight, flights) {
+    out << flight << '\n';
+  }
   file.close();
   return true;
 }
@@ -209,4 +216,12 @@ void MainWindow::setTab() {
   tabs->addTab(tableWrapper, "Таблица");
   tabs->addTab(chartsWrapper, "Диаграммы");
   setCentralWidget(tabs);
+}
+
+void MainWindow::generateRandomFlights(int amount) {
+  flights.reserve(flights.capacity() + amount);
+  for (int i = 0; i < amount; ++i) {
+    // QFlight newFlight = QFlight::generateRandomFlight();
+    flights.push_back(*QFlight::generateRandomFlight());
+  }
 }

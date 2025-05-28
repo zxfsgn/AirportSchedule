@@ -34,7 +34,7 @@ class MainWindow : public QMainWindow {
   void closeEvent(QCloseEvent* event) override;
 
  private:
-  const QString FILE_NAME = "Flights.bin";
+  const QString FILE_NAME = "Flights.txt";
 
   QTabWidget* tabs;
   TableWrapper* tableWrapper;
@@ -49,5 +49,6 @@ class MainWindow : public QMainWindow {
   bool saveFlightsToBinary();
   bool wannaSave();
   void parseFlightsFromJson(const QString& filePath);
+  void generateRandomFlights(int amount);
 };
 #endif  // MAINWINDOW_H

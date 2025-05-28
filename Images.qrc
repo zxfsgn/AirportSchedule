@@ -1,1 +1,13 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>bin.png</file>
+        <file>Brekotking.jpg</file>
+        <file>check.png</file>
+        <file>edit.png</file>
+        <file>Flights.json</file>
+        <file>pencil.png</file>
+        <file>plus.png</file>
+        <file>trash.png</file>
+        <file>Flights.txt</file>
+    </qresource>
+</RCC>

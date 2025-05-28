@@ -185,7 +185,10 @@ bool FlightTableModel::removeRows(int row,
     return false;
 
   beginRemoveRows(parent, row, row + count - 1);
-  m_flights.remove(row, count);
+  for (int i = 0; i < count; ++i) {
+    m_flights.removeAt(row + i);
+  }
+
   endRemoveRows();
 
   emit editCompleted(QString("%1 строк(а)(и) было(и) удалены на позиции %2")

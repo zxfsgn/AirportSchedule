@@ -14,10 +14,10 @@ struct Filters {
   static const int filtersAmount = 6;
   QList<QDate> date;
   QTime time;
-  QStringList destination;
-  QStringList aircraft;
+  QList<QString> destination;
+  QList<QString> aircraft;
   int seats = -1;
-  QStringList intermediate;
+  QList<QString> intermediate;
 };
 
 class TableFilterProxy : public QSortFilterProxyModel {

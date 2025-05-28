@@ -1,13 +1,15 @@
 #ifndef FLIGHTSCHART_H
 #define FLIGHTSCHART_H
 
-#include <QChart>
 #include <QChartView>
 #include <QList>
+#include <QtCharts>
 
 #include "flightsfilter.h"
 #include "flighttablemodel.h"
 #include "qflight.h"
+
+// using namespace QtCharts;
 
 class FlightsChart : public QChart {
   Q_OBJECT
@@ -29,7 +31,7 @@ class FlightsChart : public QChart {
   QColumns column;
   FlightsFilter* filter;
   //??TEMPLATE??
-  QHash<QString, int> flightsHash;
+  QMap<QString, int> flightsHash;
 
   void customizeChart();
   void customizeView();

@@ -10,6 +10,7 @@
 #include <QGroupBox>
 #include <QLabel>
 #include <QListWidget>
+#include <QMap>
 #include <QPushButton>
 #include <QRadioButton>
 #include <QStringList>
@@ -43,13 +44,13 @@ class FilterToolBox : public QToolBox {
   // void updateFilterDatesList();
 
  private:
-  QHash<QColumns, FlightsFilter*> filters;
+  QMap<QColumns, FlightsFilter*> filters;
   QDateEdit* dateEdit;
   QList<QDate>& currentFilterDates;
   QVBoxLayout* dateLayout;
   QWidget* dateList;
   QVBoxLayout* dateListLayout;
-  QHash<QColumns, QHash<QString, QLabel*>> amounts;
+  QMap<QColumns, QMap<QString, QLabel*>> amounts;
 
   void setDateChooser();
   void onDateFilterButtonClick();
@@ -84,9 +85,10 @@ class FilterToolBox : public QToolBox {
       for (auto& variant : variants) {
         QWidget* groupBoxItem = new QWidget();
         auto itemLayout = new QHBoxLayout(groupBoxItem);
-
-        T* button = new T(variant);
-        button->setCursor(Qt::PointingHandCursor);
+        QString text = variant;
+        if (variant == "NULL")
+          text = "Без промежуточных";
+        T* button = new T(text);
         button->setStyleSheet(R"(
 QCheckBox {
     spacing: 8px;
@@ -114,7 +116,8 @@ QCheckBox::indicator:checked {
     } else {
       for (auto& variant : variants) {
         T* button = new T(variant);
-        button->setCursor(Qt::PointingHandCursor);
+        if (variant == "Все" || variant == "Любое")
+          button->setChecked(true);
         button->setStyleSheet(R"(
 QRadioButton::indicator {
     width: 16px;
@@ -133,8 +136,9 @@ QRadioButton::indicator:checked {
       }
     }
     addItem(groupBox, header);
-    connect(buttonGroup, &QButtonGroup::buttonToggled, table,
-            &Table::filterController);
+    connect(buttonGroup,
+            QOverload<QAbstractButton*, bool>::of(&QButtonGroup::buttonToggled),
+            table, &Table::filterController);
   }
 
  protected:

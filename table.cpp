@@ -47,6 +47,7 @@ void Table::deleteSelectedRows() {
 void Table::setStyles() {
   // Special styling for flight table
   QString tableStyle = R"(
+
     QTableView {
         font: 11pt "Segoe UI";
         color: #3d8eff;
@@ -137,6 +138,8 @@ void Table::filterController(QAbstractButton* button, bool checked) {
       seatsRange = 200;
     newFilters.seats = seatsRange;
   } else if (name == "intermediateButtonGroup") {
+    if (text == "Без промежуточных")
+      text = "";
     if (checked)
       newFilters.intermediate.append(text);
     else

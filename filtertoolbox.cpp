@@ -94,7 +94,7 @@ void FilterToolBox::initAmountFilters() {
 }
 
 void FilterToolBox::updateAmountLabels(QColumns column) {
-  QHash<QString, int> flightsHash = filters[column]->filteredFlights<QString>();
+  QMap<QString, int> flightsHash = filters[column]->filteredFlights<QString>();
   for (const auto& key : flightsHash.keys()) {
     // 1. Verify column exists
     if (!amounts.contains(column)) {
@@ -139,10 +139,12 @@ QString FilterToolBox::setLabelText(QColumns column, int amount) {
 void FilterToolBox::initAmountFilter(QColumns column) {
   auto filter = new FlightsFilter(table->model()->flights(), column);
   filters[column] = filter;
-  QHash<QString, int> flightsHash = filter->filteredFlights<QString>();
-  QHash<QString, QLabel*> labelsHash;
+  QMap<QString, int> flightsHash = filter->filteredFlights<QString>();
+  QMap<QString, QLabel*> labelsHash;
   for (const auto& key : flightsHash.keys()) {
     QString text = setLabelText(column, flightsHash[key]);
+    if (text == "")
+      text = "Без промежуточных";
     labelsHash[key] = new QLabel(text);
   }
   amounts[column] = labelsHash;
@@ -179,7 +181,7 @@ void FilterToolBox::setSeatsRadio() {
 
 void FilterToolBox::setIntermediateChooser() {
   QString header = "Промежуточные пункты усадок";
-  universalChooser<QCheckBox>(header, flightOptions::destinations,
+  universalChooser<QCheckBox>(header, flightOptions::intermediate,
                               intermediateChooser);
   intermediateChooser->setObjectName("intermediateButtonGroup");
 }

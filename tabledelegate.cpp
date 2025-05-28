@@ -10,6 +10,50 @@ QWidget* TableDelegate::createEditor(QWidget* parent,
       QDateEdit* dateEdit = new QDateEdit(parent);
       dateEdit->setCalendarPopup(true);
       dateEdit->setDate(QDate::currentDate());
+      QString styleSheet = R"(
+QDateEdit {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 3px 18px 3px 8px;
+        min-width: 6em;
+        color: #333;
+    }
+
+    QDateEdit:hover {
+        border: 1px solid #999;
+    }
+
+    QDateEdit:editable {
+        background: white;
+    }
+
+    QDateEdit:!editable {
+        background: #f8f8f8;
+    }
+
+    QDateEdit::drop-down {
+        subcontrol-origin: padding;
+        subcontrol-position: right center;
+        width: 20px;
+        border-left: 1px solid #ddd;
+    }
+
+    QDateEdit::down-arrow {
+        image: url(:/icons/arrow-down.png);
+        width: 10px;
+        height: 10px;
+    }
+
+    QDateEdit QAbstractItemView {
+        border: 1px solid #ddd;
+        selection-background-color: #3d8eff;
+        selection-color: white;
+        background: white;
+        outline: none;
+    }
+    )";
+      dateEdit->setStyleSheet(styleSheet);
       return dateEdit;
     }
 
@@ -22,17 +66,152 @@ QWidget* TableDelegate::createEditor(QWidget* parent,
 
     case QColumns::Destination: {
       QComboBox* comboBox = new QComboBox(parent);
-      comboBox->addItems({"Хабаровск", "Железногорск", "Горнозаводск", "Москва",
-                          "Санкт-Петербург", "Красноярск", "Псков",
-                          "Новосибирск"});
+      comboBox->addItems(flightOptions::destinations);
+      QString styleSheet = R"(
+QComboBox {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 3px 18px 3px 8px;
+        min-width: 6em;
+        color: #333;
+    }
+
+    QComboBox:hover {
+        border: 1px solid #999;
+    }
+
+    QComboBox:editable {
+        background: white;
+    }
+
+    QComboBox:!editable {
+        background: #f8f8f8;
+    }
+
+    QComboBox::drop-down {
+        subcontrol-origin: padding;
+        subcontrol-position: right center;
+        width: 20px;
+        border-left: 1px solid #ddd;
+    }
+
+    QComboBox::down-arrow {
+        image: url(:/icons/arrow-down.png);
+        width: 10px;
+        height: 10px;
+    }
+
+    QComboBox QAbstractItemView {
+        border: 1px solid #ddd;
+        selection-background-color: #3d8eff;
+        selection-color: white;
+        background: white;
+        outline: none;
+    }
+    )";
+      comboBox->setStyleSheet(styleSheet);
       return comboBox;
     }
 
     case QColumns::Aircraft: {
       QComboBox* comboBox = new QComboBox(parent);
-      comboBox->addItems({"А320", "Boeing737", "B737NG", "Bombardier_Dash-8",
-                          "Sukhoi_Superjet_100", "Embraer", "Boeing777",
-                          "Ан-24"});  // place in some other place
+      comboBox->addItems(
+          flightOptions::aircrafts);  // place in some other place
+      QString styleSheet = R"(
+QComboBox {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 3px 18px 3px 8px;
+        min-width: 6em;
+        color: #333;
+    }
+
+    QComboBox:hover {
+        border: 1px solid #999;
+    }
+
+    QComboBox:editable {
+        background: white;
+    }
+
+    QComboBox:!editable {
+        background: #f8f8f8;
+    }
+
+    QComboBox::drop-down {
+        subcontrol-origin: padding;
+        subcontrol-position: right center;
+        width: 20px;
+        border-left: 1px solid #ddd;
+    }
+
+    QComboBox::down-arrow {
+        image: url(:/icons/arrow-down.png);
+        width: 10px;
+        height: 10px;
+    }
+
+    QComboBox QAbstractItemView {
+        border: 1px solid #ddd;
+        selection-background-color: #3d8eff;
+        selection-color: white;
+        background: white;
+        outline: none;
+    }
+    )";
+      comboBox->setStyleSheet(styleSheet);
+      return comboBox;
+    }
+
+    case QColumns::Intermediate: {
+      QComboBox* comboBox = new QComboBox(parent);
+      comboBox->addItems(flightOptions::intermediate);
+      QString styleSheet = R"(
+QComboBox {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 3px 18px 3px 8px;
+        min-width: 6em;
+        color: #333;
+    }
+
+    QComboBox:hover {
+        border: 1px solid #999;
+    }
+
+    QComboBox:editable {
+        background: white;
+    }
+
+    QComboBox:!editable {
+        background: #f8f8f8;
+    }
+
+    QComboBox::drop-down {
+        subcontrol-origin: padding;
+        subcontrol-position: right center;
+        width: 20px;
+        border-left: 1px solid #ddd;
+    }
+
+    QComboBox::down-arrow {
+        image: url(:/icons/arrow-down.png);
+        width: 10px;
+        height: 10px;
+    }
+
+    QComboBox QAbstractItemView {
+        border: 1px solid #ddd;
+        selection-background-color: #3d8eff;
+        selection-color: white;
+        background: white;
+        outline: none;
+    }
+    )";
+      comboBox->setStyleSheet(styleSheet);
       return comboBox;
     }
 

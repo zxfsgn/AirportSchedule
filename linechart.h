@@ -22,7 +22,7 @@ class LineChart : public FlightsChart {
   void createAxis();
 
  private:
-  QHash<int, int> flightsHash;
+  QMap<int, int> flightsHash;
   QLineSeries* series;
   QCategoryAxis* axisX;
   QValueAxis* axisY;

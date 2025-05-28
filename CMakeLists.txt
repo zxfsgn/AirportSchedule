@@ -16,6 +16,39 @@ set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
+        circlechart.h circlechart.cpp
+        barchart.h barchart.cpp
+        linechart.h linechart.cpp
+        table.h table.cpp
+        tablewrapper.h tablewrapper.cpp
+        flighttablemodel.h flighttablemodel.cpp
+        qflight.h qflight.cpp
+        tabledelegate.h tabledelegate.cpp
+        flightsfilter.h flightsfilter.cpp
+        flightschart.h flightschart.cpp
+        chartswrapper.h chartswrapper.cpp
+        filtertoolbox.h filtertoolbox.cpp
+        tablefilterproxy.h tablefilterproxy.cpp
+        datefiltertoolboxitem.h datefiltertoolboxitem.cpp
+
+        Brekotking.jpg
+        Flights.bin
+        Images.qrc
+        edit.png plus.png trash.png
+        check.png
+        Flights.json
+
+)
+
+file(COPY
+    Brekotking.jpg
+    Flights.txt
+    Flights.json
+    edit.png
+    plus.png
+    trash.png
+    check.png
+    DESTINATION ${CMAKE_BINARY_DIR}  # Copies to the build directory
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -39,7 +72,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         datefiltertoolboxitem.h datefiltertoolboxitem.cpp
 
         Brekotking.jpg
-        Flights.bin
+        Flights.txt
         Images.qrc
         edit.png plus.png trash.png
         check.png

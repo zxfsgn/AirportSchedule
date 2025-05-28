@@ -3,8 +3,8 @@
 
 #include <type_traits>
 
-#include <QHash>
 #include <QList>
+#include <QMap>
 
 #include "qflight.h"
 
@@ -13,9 +13,9 @@ class FlightsFilter {
   FlightsFilter(QList<QFlight>& flights, QColumns column);
 
   template <typename T>
-  QHash<T, int> filteredFlights() {
+  QMap<T, int> filteredFlights() {
     int flightsAmount = flights.size();
-    QHash<T, int> flightsHash;
+    QMap<T, int> flightsHash;
     for (size_t i = 0; i < flightsAmount; ++i) {
       ++flightsHash[getFieldByColumn<T>(i)];
     }
@@ -36,6 +36,10 @@ class FlightsFilter {
       case QColumns::Destination:
         if constexpr (std::is_same_v<T, QString>)
           return flights[index].destination;
+        break;
+      case QColumns::Intermediate:
+        if constexpr (std::is_same_v<T, QString>)
+          return flights[index].intermediate;
         break;
       case QColumns::Date:
         if constexpr (std::is_same_v<T, int>)
